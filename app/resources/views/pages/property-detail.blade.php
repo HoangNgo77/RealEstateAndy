@@ -9,6 +9,8 @@
     <meta name="description" content="Piller-html - Real Estate Home HTML Template">
     <meta name="keywords" content="Piller-html - Real Estate Home HTML Template">
     <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <base href="{{ url('') }}">
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
