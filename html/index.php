@@ -1,1016 +1,48 @@
 <!doctype html>
 <html class="no-js " lang="zxx">
 
-<?php include 'view/header.php'?>
+<?php include 'view/head.php'?>
 
 
 <body class="">
-
-    <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  	<![endif]-->
-
 
     <!--********************************
    		Code Start From Here 
 	******************************** -->
 
+<?php include 'view/preloader.php'?>
+
+    <?php include 'view/color-scheme.php'?>
+    
     <!--==============================
-     Preloader
-  ==============================-->
-    <div class="preloader ">
-        <button class="th-btn preloaderCls">Cancel Preloader </button>
-        <div id="preloader" class="preloader-inner">
-            <div class="txt-loading">
-                <span data-text-preloader="P" class="letters-loading">
-                    P </span>
-                <span data-text-preloader="I" class="letters-loading">
-                    I </span>
-                <span data-text-preloader="L" class="letters-loading">
-                    L </span>
-                <span data-text-preloader="L" class="letters-loading">
-                    L </span>
-                <span data-text-preloader="E" class="letters-loading">
-                    E
-                </span>
-                <span data-text-preloader="R" class="letters-loading">
-                    R
-                </span>
-            </div>
-        </div>
-    </div>
-    <div class="color-scheme">
-        <button class="switchIcon"><i class="fa-solid fa-palette"></i></button>
-        <h4 class="color-scheme-title"><i class="far fa-palette"></i> Color Switcher</h4>
-        <p class="color-scheme-text">Check template with your color</p>
-        <div class="color-switch-btns">
-            <button data-color="#6240CF"><i class="fa-solid fa-droplet"></i></button>
-            <button data-color="#068FFF"><i class="fa-solid fa-droplet"></i></button>
-            <button data-color="#044DBC"><i class="fa-solid fa-droplet"></i></button>
-            <button data-color="#FFAF00"><i class="fa-solid fa-droplet"></i></button>
-            <button data-color="#F80000"><i class="fa-solid fa-droplet"></i></button>
-            <button data-color="#231E7A"><i class="fa-solid fa-droplet"></i></button>
-        </div>
-        <p class="color-scheme-text">Or custom color..</p>
-        <input type="color" id="thcolorpicker" value="#068FFF">
-    </div><!--==============================
     Sidemenu
 ============================== -->
-    <div class="sidemenu-wrapper sidemenu-cart d-none d-lg-block ">
-        <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget woocommerce widget_shopping_cart">
-                <h3 class="widget_title">Shopping cart</h3>
-                <div class="widget_shopping_cart_content">
-                    <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_1.png" alt="Cart Image">Bosco Apple Fruit</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_2.png" alt="Cart Image">Green Cauliflower</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_3.png" alt="Cart Image">Mandarin orange</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_4.png" alt="Cart Image">Shallot Red onion</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_5.png" alt="Cart Image">Sour Red Cherry</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
-                            </span>
-                        </li>
-                    </ul>
-                    <p class="woocommerce-mini-cart__total total">
-                        <strong>Subtotal:</strong>
-                        <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">$</span>4398.00</span>
-                    </p>
-                    <p class="woocommerce-mini-cart__buttons buttons">
-                        <a href="cart.html" class="th-btn wc-forward">View cart</a>
-                        <a href="checkout.html" class="th-btn checkout wc-forward">Checkout</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="popup-search-box d-none d-lg-block">
-        <button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#">
-            <input type="text" placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-        </form>
-    </div><!--==============================
+    <?php include 'view/sidemenu.php'?>
+    
+    <!--==============================
     Mobile Menu
-  ============================== -->
-    <div class="th-menu-wrapper">
-        <div class="th-menu-area text-center">
-            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Piller-html"></a>
-            </div>
-            <div class="th-mobile-menu">
-                <ul>
-                    <li class="menu-item-has-children active">
-                        <a href="index.html">Home</a>
-                        <ul class="sub-menu th-submenu th-open" style="">
-                            <li><a href="index.html">Home Real Estate</a></li>
-                            <li><a href="home-2.html">Home Property</a></li>
-                            <li><a href="home-3.html">Home Map</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="about.html">About Us</a>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Property</a>
-                        <ul class="sub-menu">
-                            <li><a href="property.html">Properties</a></li>
-                            <li><a href="property-details.html">Properties Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Agencies</a>
-                        <ul class="sub-menu">
-                            <li><a href="agency.html">Agencies </a></li>
-                            <li><a href="agency-details.html">Agency Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children">
-                                <a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                    <li><a href="cart.html">Cart Page</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="team.html">Agents Page</a></li>
-                            <li><a href="team-details.html">Agent Details</a></li>
-                            <li><a href="gallery.html">Gallery Page</a></li>
-                            <li><a href="service.html">Service Page</a></li>
-                            <li><a href="service-right-sidebar.html">Service with sidebar</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
-                            <li><a href="pricing.html">Pricing Plan</a></li>
-                            <li><a href="neighborhood-guide.html">Neighborhood Guide</a></li>
-                            <li><a href="faq.html">Faq Page</a></li>
-                            <li><a href="error.html">Error Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog.html">Blog Grid</a></li>
-                            <li><a href="blog-grid-right-sidebar.html">Blog Grid With Right Sidebar</a></li>
-                            <li><a href="blog-grid-left-sidebar.html">Blog Grid With Left Sidebar</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+============================== -->
+    <?php include 'view/mobile-menu.php'?>
+    
     <!--==============================
 	Header Area
 ==============================-->
-    <header class="th-header header-default header-layout1">
-        <div class="header-top">
-            <div class="container">
-                <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
-                    <div class="col-auto d-none d-lg-block">
-                        <div class="header-links">
-                            <ul>
-                                <li><i class="fa-solid fa-envelope"></i> <a href="mailto:infomailexample@mail.com">infomailexample@mail.com</a></li>
-                                <li><i class="fa-solid fa-phone"></i> <a href="tel:+0012345678900">+00 (123) 456 789 00</a></li>
-                            </ul>
-                        </div>
-                    </div>
+    <?php include 'view/header.php'?>
 
-                    <div class="col-auto">
-                        <div class="header-links">
-                            <ul>
-                                <li>
-                                    <div class="th-social">
-                                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
-                                    </div>
-                                </li>
-                                <li class="lang-wrapper">
-                                    <div class="lang-menu">
-                                        <div class="icon">
-                                            <img src="assets/img/icon/english.png" alt="icon">
-                                        </div>
-                                        <select class="form-select nice-select">
-                                            <option selected="">English</option>
-                                            <option>Spanish</option>
-                                            <option>Hindi</option>
-                                        </select>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sticky-wrapper">
-            <!-- Main Menu Area -->
-            <div class="menu-area">
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="index.html"><img src="assets/img/logo-white.svg" alt="Piller-html"></a>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <nav class="main-menu d-none d-lg-inline-block">
-                                <ul>
-                                    <li class="menu-item-has-children active">
-                                        <a href="index.html">Home</a>
-                                        <ul class="mega-menu mega-menu-content allow-natural-scroll">
-                                            <li>
-                                                <div class="container">
-                                                    <div class="row gy-4">
-                                                        <div class="col-lg-4">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/index.jpg" alt="Home One">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="index.html" class="th-btn radius">View Demo</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="index.html"> <span class="text-theme">01.</span> Home Real Estate </a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-2.jpg" alt="Home Two">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="home-2.html" class="th-btn radius">View Demo</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="home-2.html"> <span class="text-theme">02.</span> Home Property</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-3.jpg" alt="Home Three">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="home-3.html" class="th-btn radius">View Demo</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="home-3.html"> <span class="text-theme">03.</span> Home Map</a></h3>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="about.html">About Us</a>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Property</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="property.html">Properties</a></li>
-                                            <li><a href="property-details.html">Properties Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Agencies</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="agency.html">Agencies </a></li>
-                                            <li><a href="agency-details.html">Agency Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Shop</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                                    <li><a href="cart.html">Cart Page</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="team.html">Agents Page</a></li>
-                                            <li><a href="team-details.html">Agent Details</a></li>
-                                            <li><a href="gallery.html">Gallery Page</a></li>
-                                            <li><a href="service.html">Service Page</a></li>
-                                            <li><a href="service-right-sidebar.html">Service with sidebar</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                            <li><a href="pricing.html">Pricing Plan</a></li>
-                                            <li><a href="neighborhood-guide.html">Neighborhood Guide</a></li>
-                                            <li><a href="faq.html">Faq Page</a></li>
-                                            <li><a href="error.html">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog Grid</a></li>
-                                            <li><a href="blog-grid-right-sidebar.html">Blog Grid With Right Sidebar</a></li>
-                                            <li><a href="blog-grid-left-sidebar.html">Blog Grid With Left Sidebar</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
-                        </div>
-                        <div class="col-auto d-none d-xl-block">
-                            <div class="header-button">
-                                <a href="contact.html" class="th-btn outline pill text-white"><i class="fa-regular fa-house-chimney me-2"></i> Add Listing </a>
-                                <button type="button" class="icon-btn searchBoxToggler text-white"><i class="far fa-search"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
     <!--==============================
 Hero Area
 ==============================-->
-    <div class="th-hero-wrapper hero-1" id="hero">
-        <div class="hero-img-shape-1">
-            <div class="logo-icon-wrap">
-                <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="logo-icon popup-video">
-                    <i class="fa-sharp fa-solid fa-play"></i>
-                </a>
-                <div class="logo-icon-wrap__text">
-                    <span class="logo-animation">PILLAR REAL ESTATE HOME * REAL ESTATE</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="swiper th-slider " id="heroSlider1" data-slider-options='{"effect":"fade", "loop":true, "autoplay":true, "autoHeight": "false"}'>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="hero-inner hero-style1" data-bg-src="assets/img/hero/hero_bg_1_1.jpg">
-                        <div class="container">
-                            <div class="row gy-50 gx-40 align-items-center">
-                                <div class="col-xxl-7 col-xl-7 col-lg-8">
-                                    <div class="hero-1-content pe-xl-4">
-                                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Journey To Your Perfect <span class="title2 text-theme"> Luxury Home</span></h1>
-                                        <div class="btn-group justify-content-center" data-ani="slideinup" data-ani-delay="0.4s">
-                                            <a href="property.html" class="th-btn style2 pill">Explore Property </a>
-                                        </div>
-                                        <div class="trust-content" data-ani="slideinup" data-ani-delay="0.6s">
-                                            <div class="icon"><img src="assets/img/icon/star-icon.svg" alt="img"></div>
-                                            <h4 class="box-title">Trustipilot</h4>
-                                        </div>
-                                        <div class="bottom" data-ani="slideinup" data-ani-delay="0.8s">
-                                            <div class="avatar">
-                                                <img src="assets/img/hero/heror-1-avator-group.png" alt="img">
-                                            </div>
-                                            <div class="content">
-                                                <div class="th-social">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <h4 class="review-title"><span class="number"><span class="counter-number">19</span>k+</span> clients</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="hero-inner hero-style1" data-bg-src="assets/img/hero/hero_bg_1_2.jpg">
-                        <div class="container">
-                            <div class="row gy-50 gx-40 align-items-center">
-                                <div class="col-xxl-7 col-xl-7 col-lg-8">
-                                    <div class="hero-1-content pe-xl-4">
-                                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Find Your Perfect Place to <span class="title2 text-theme"> Call Home</span></h1>
-                                        <div class="btn-group justify-content-center" data-ani="slideinup" data-ani-delay="0.4s">
-                                            <a href="property.html" class="th-btn style2 pill">Explore Property </a>
-                                        </div>
-                                        <div class="trust-content" data-ani="slideinup" data-ani-delay="0.6s">
-                                            <div class="icon"><img src="assets/img/icon/star-icon.svg" alt="img"></div>
-                                            <h4 class="box-title">Trustipilot</h4>
-                                        </div>
-                                        <div class="bottom" data-ani="slideinup" data-ani-delay="0.8s">
-                                            <div class="avatar">
-                                                <img src="assets/img/hero/heror-1-avator-group.png" alt="img">
-                                            </div>
-                                            <div class="content">
-                                                <div class="th-social">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <h4 class="review-title"><span class="number"><span class="counter-number">19</span>k+</span> clients</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="hero-inner hero-style1" data-bg-src="assets/img/hero/hero_bg_1_3.jpg">
-                        <div class="container">
-                            <div class="row gy-50 gx-40 align-items-center">
-                                <div class="col-xxl-7 col-xl-7 col-lg-8">
-                                    <div class="hero-1-content pe-xl-4">
-                                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Experience Real Estate <span class="title2 text-theme"> Never Before</span></h1>
-                                        <div class="btn-group justify-content-center" data-ani="slideinup" data-ani-delay="0.4s">
-                                            <a href="property.html" class="th-btn style2 pill">Explore Property </a>
-                                        </div>
-                                        <div class="trust-content" data-ani="slideinup" data-ani-delay="0.6s">
-                                            <div class="icon"><img src="assets/img/icon/star-icon.svg" alt="img"></div>
-                                            <h4 class="box-title">Trustipilot</h4>
-                                        </div>
-                                        <div class="bottom" data-ani="slideinup" data-ani-delay="0.8s">
-                                            <div class="avatar">
-                                                <img src="assets/img/hero/heror-1-avator-group.png" alt="img">
-                                            </div>
-                                            <div class="content">
-                                                <div class="th-social">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <h4 class="review-title"><span class="number"><span class="counter-number">19</span>k+</span> clients</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="hero-inner hero-style1" data-bg-src="assets/img/hero/hero_bg_1_4.jpg">
-                        <div class="container">
-                            <div class="row gy-50 gx-40 align-items-center">
-                                <div class="col-xxl-7 col-xl-7 col-lg-8">
-                                    <div class="hero-1-content pe-xl-4">
-                                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Discover Real Estate Piller <span class="title2 text-theme"> Dream Home</span></h1>
-                                        <div class="btn-group justify-content-center" data-ani="slideinup" data-ani-delay="0.4s">
-                                            <a href="property.html" class="th-btn style2 pill">Explore Property </a>
-                                        </div>
-                                        <div class="trust-content" data-ani="slideinup" data-ani-delay="0.6s">
-                                            <div class="icon"><img src="assets/img/icon/star-icon.svg" alt="img"></div>
-                                            <h4 class="box-title">Trustipilot</h4>
-                                        </div>
-                                        <div class="bottom" data-ani="slideinup" data-ani-delay="0.8s">
-                                            <div class="avatar">
-                                                <img src="assets/img/hero/heror-1-avator-group.png" alt="img">
-                                            </div>
-                                            <div class="content">
-                                                <div class="th-social">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <h4 class="review-title"><span class="number"><span class="counter-number">19</span>k+</span> clients</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-pagination"></div>
-
-            <div class="slider-pagination-wrapper">
-                <button data-slider-prev="#heroSlider1" class="slider-arrow default slider-prev style-2">prev</button>
-                <div class="slider-pagination2"></div>
-                <div class="line"></div>
-                <button data-slider-next="#heroSlider1" class="slider-arrow default style-2"> Next </button>
-            </div>
-        </div>
-    </div>
+    <?php include 'view/home/hero-area.php'?>
     <!--======== / Hero Section ========-->
 
 
     <!--==============================
 Search Area
 ==============================-->
-    <div class="search-area">
-        <form action="/submit-form">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-10">
-                        <div class="search-wrap">
-                            <div class="row">
-                                <div class="search-wrap-area-top">
-                                    <ul class="nav nav-tabs custom" id="myTab" role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="buy-tab" data-bs-toggle="tab" data-bs-target="#buy" type="button" role="tab" aria-controls="buy" aria-selected="true">
-                                                Buy
-                                            </button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="sell-tab" data-bs-toggle="tab" data-bs-target="#sell" type="button" role="tab" aria-controls="sell" aria-selected="false">
-                                                Sell
-                                            </button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="rent-tab" data-bs-toggle="tab" data-bs-target="#rent" type="button" role="tab" aria-controls="rent" aria-selected="false">
-                                                Rent
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="buy" role="tabpanel" aria-labelledby="buy-tab">
-                                        <div class="select-group-wrapper">
-                                            <div class="form-group">
-                                                <label for="property_type">Property Type</label>
-                                                <select name="property_type" id="property_type" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Property Type</option>
-                                                    <option value="apartment">Apartment</option>
-                                                    <option value="house">House</option>
-                                                    <option value="villa">Villa</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="room_type">Room Type</label>
-                                                <select name="room_type" id="room_type" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Room Type</option>
-                                                    <option value="single">Single Room</option>
-                                                    <option value="double">Double Room</option>
-                                                    <option value="suite">Suite</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="mini_area">Mini Area (Sqft)</label>
-                                                <select name="mini_area" id="mini_area" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Area</option>
-                                                    <option value="500">500 Sqft</option>
-                                                    <option value="1000">1000 Sqft</option>
-                                                    <option value="1500">1500 Sqft</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="max_area">Max Area (Sqft)</label>
-                                                <select name="max_area" id="max_area" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Max Area</option>
-                                                    <option value="2000">2000 Sqft</option>
-                                                    <option value="3000">3000 Sqft</option>
-                                                    <option value="4000">4000 Sqft</option>
-                                                </select>
-                                            </div>
-                                            <div class="advance-btn-wrapper">
-                                                <div class="advance-search-btn advance-search-active">
-                                                    <div class="search-btn-item">
-                                                        <a class="th-btn radius outline w-100">Advanced Search <i class="fa-solid fa-sliders"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="advance-search-wrapper">
-                                                <div class="form-group">
-                                                    <label for="Amenities">Amenities</label>
-                                                    <select name="Amenities" id="Amenities" class="form-select nice-select">
-                                                        <option value="1" disabled selected hidden>Select Amenities</option>
-                                                        <option value="2">Gymnasium</option>
-                                                        <option value="3">Swiming Pool</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="Garage">Garage </label>
-                                                    <select name="Garage" id="Garage" class="form-select nice-select">
-                                                        <option value="" disabled selected hidden>Select Garage</option>
-                                                        <option value="1">Small Garage</option>
-                                                        <option value="2">Large Garage</option>
-                                                        <option value="3">Extra Large Garage</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="Floor_Level">Floor Level</label>
-                                                    <select name="Floor_Level" id="Floor_Level" class="form-select nice-select">
-                                                        <option value="Floor_Level" disabled selected hidden>Select Floor Level</option>
-                                                        <option value="1">Ground Floor</option>
-                                                        <option value="2">Middle Floor</option>
-                                                        <option value="3">Top Floor</option>
-                                                    </select>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="parking_spaces">Parking Spaces</label>
-                                                    <select name="parking_spaces" id="parking_spaces" class="form-select nice-select">
-                                                        <option value="" disabled selected hidden>Select Parking Spaces</option>
-                                                        <option value="1">No Parking</option>
-                                                        <option value="2">2 Space</option>
-                                                        <option value="3">3 Spaces</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="form-group">
-                                                <label for="max_bedrooms1">Max of Bedrooms</label>
-                                                <select name="max_bedrooms" id="max_bedrooms1" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Max Bedrooms</option>
-                                                    <option value="1">1 Bedroom</option>
-                                                    <option value="2">2 Bedrooms</option>
-                                                    <option value="3">3 Bedrooms</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label for="max_bedrooms">Max of Bedrooms</label>
-                                                <select name="max_bedrooms" id="max_bedrooms" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Max Bedrooms</option>
-                                                    <option value="1">1 Bedroom</option>
-                                                    <option value="2">2 Bedrooms</option>
-                                                    <option value="3">3 Bedrooms</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label for="location">Location</label>
-                                                <select name="location" id="location" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Location</option>
-                                                    <option value="new_york">New York</option>
-                                                    <option value="los_angeles">Los Angeles</option>
-                                                    <option value="chicago">Chicago</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <p class="price-range-title">Price Range</p>
-                                                <div class="price_slider_wrapper">
-                                                    <div class="price_slider"></div>
-                                                    <div class="price_label">
-                                                        <span class="from">$125000</span>-<span class="to">$825,000.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="advance-btn-wrapper">
-                                                <div class="advance-search-btn">
-                                                    <div class="search-btn-item">
-                                                        <a class="th-btn radius w-100"><i class="fa-regular fa-magnifying-glass me-2"></i> Search Property </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="sell" role="tabpanel" aria-labelledby="sell-tab">
-                                        <div class="select-group-wrapper">
-                                            <div class="form-group">
-                                                <label for="property_type1">Property Type</label>
-                                                <select name="property_type" id="property_type1" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Property Type</option>
-                                                    <option value="apartment">Apartment</option>
-                                                    <option value="house">House</option>
-                                                    <option value="villa">Villa</option>
-                                                    <option value="commercial">Commercial</option>
-                                                    <option value="land">Land</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="room_type1">Room Type</label>
-                                                <select name="room_type1" id="room_type1" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Room Type</option>
-                                                    <option value="single">Single Room</option>
-                                                    <option value="double">Double Room</option>
-                                                    <option value="suite">Suite</option>
-                                                    <option value="studio">Studio</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="mini_area1">Mini Area (Sqft)</label>
-                                                <select name="mini_area1" id="mini_area1" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Area</option>
-                                                    <option value="500">500 Sqft</option>
-                                                    <option value="1000">1000 Sqft</option>
-                                                    <option value="1500">1500 Sqft</option>
-                                                    <option value="2000">2000 Sqft</option>
-                                                    <option value="2500">2500+ Sqft</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="max_area1">Max Area (Sqft)</label>
-                                                <select name="max_area1" id="max_area1" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Max Area</option>
-                                                    <option value="2000">2000 Sqft</option>
-                                                    <option value="3000">3000 Sqft</option>
-                                                    <option value="4000">4000 Sqft</option>
-                                                    <option value="5000">5000+ Sqft</option>
-                                                </select>
-                                            </div>
-                                            <div class="advance-btn-wrapper">
-                                                <div class="advance-search-btn advance-search-active">
-                                                    <div class="search-btn-item">
-                                                        <a class="th-btn radius outline w-100">Advanced Search <i class="fa-solid fa-sliders"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="advance-search-wrapper">
-                                                <div class="form-group">
-                                                    <label for="Amenities1">Amenities</label>
-                                                    <select name="Amenities1" id="Amenities1" class="form-select nice-select">
-                                                        <option value="1" disabled selected hidden>Select Amenities</option>
-                                                        <option value="2">Gymnasium</option>
-                                                        <option value="3">Swiming Pool</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="Garage1">Garage </label>
-                                                    <select name="Garage1" id="Garage1" class="form-select nice-select">
-                                                        <option value="" disabled selected hidden>Select Garage</option>
-                                                        <option value="1">Small Garage</option>
-                                                        <option value="2">Large Garage</option>
-                                                        <option value="3">Extra Large Garage</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="Floor_Level1">Floor Level</label>
-                                                    <select name="Floor_Level1" id="Floor_Level1" class="form-select nice-select">
-                                                        <option value="Floor_Level" disabled selected hidden>Select Floor Level</option>
-                                                        <option value="1">Ground Floor</option>
-                                                        <option value="2">Middle Floor</option>
-                                                        <option value="3">Top Floor</option>
-                                                    </select>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="parking_spaces1">Parking Spaces</label>
-                                                    <select name="parking_spaces1" id="parking_spaces1" class="form-select nice-select">
-                                                        <option value="" disabled selected hidden>Select Parking Spaces</option>
-                                                        <option value="1">No Parking</option>
-                                                        <option value="2">2 Space</option>
-                                                        <option value="3">3 Spaces</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-
-
-                                            <div class="form-group">
-                                                <label for="max_bedrooms11">Max of Bedrooms</label>
-                                                <select name="max_bedrooms1" id="max_bedrooms11" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Max Bedrooms</option>
-                                                    <option value="1">1 Bedroom</option>
-                                                    <option value="2">2 Bedrooms</option>
-                                                    <option value="3">3 Bedrooms</option>
-                                                    <option value="4">4 Bedrooms</option>
-                                                    <option value="5">5+ Bedrooms</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label for="max_bedrooms12">Max of Bedrooms</label>
-                                                <select name="max_bedrooms" id="max_bedrooms12" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Max Bedrooms</option>
-                                                    <option value="1">1 Bedroom</option>
-                                                    <option value="2">2 Bedrooms</option>
-                                                    <option value="3">3 Bedrooms</option>
-                                                    <option value="4">4 Bedrooms</option>
-                                                    <option value="5">5+ Bedrooms</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label for="location1">Location</label>
-                                                <select name="location1" id="location1" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Location</option>
-                                                    <option value="new_york">New York</option>
-                                                    <option value="los_angeles">Los Angeles</option>
-                                                    <option value="chicago">Chicago</option>
-                                                    <option value="houston">Houston</option>
-                                                    <option value="miami">Miami</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <p class="price-range-title">Price Range</p>
-                                                <div class="price_slider_wrapper">
-                                                    <div class="price_slider"></div>
-                                                    <div class="price_label">
-                                                        <span class="from">$125000</span>-<span class="to">$825,000.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="advance-btn-wrapper">
-                                                <div class="advance-search-btn">
-                                                    <div class="search-btn-item">
-                                                        <a class="th-btn radius w-100"><i class="fa-regular fa-magnifying-glass me-2"></i> Search Property </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="rent" role="tabpanel" aria-labelledby="rent-tab">
-                                        <div class="select-group-wrapper">
-                                            <div class="form-group">
-                                                <label for="property_type2">Property Type</label>
-                                                <select name="property_type2" id="property_type2" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Property Type</option>
-                                                    <option value="apartment">Apartment</option>
-                                                    <option value="house">House</option>
-                                                    <option value="villa">Villa</option>
-                                                    <option value="commercial">Commercial</option>
-                                                    <option value="land">Land</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="room_type2">Room Type</label>
-                                                <select name="room_type2" id="room_type2" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Room Type</option>
-                                                    <option value="single">Single Room</option>
-                                                    <option value="double">Double Room</option>
-                                                    <option value="suite">Suite</option>
-                                                    <option value="studio">Studio</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="mini_area2">Mini Area (Sqft)</label>
-                                                <select name="mini_area2" id="mini_area2" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Area</option>
-                                                    <option value="500">500 Sqft</option>
-                                                    <option value="1000">1000 Sqft</option>
-                                                    <option value="1500">1500 Sqft</option>
-                                                    <option value="2000">2000 Sqft</option>
-                                                    <option value="2500">2500+ Sqft</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="max_area2">Max Area (Sqft)</label>
-                                                <select name="max_area2" id="max_area2" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Max Area</option>
-                                                    <option value="2000">2000 Sqft</option>
-                                                    <option value="3000">3000 Sqft</option>
-                                                    <option value="4000">4000 Sqft</option>
-                                                    <option value="5000">5000+ Sqft</option>
-                                                </select>
-                                            </div>
-                                            <div class="advance-btn-wrapper">
-                                                <div class="advance-search-btn advance-search-active">
-                                                    <div class="search-btn-item">
-                                                        <a class="th-btn radius outline w-100">Advanced Search <i class="fa-solid fa-sliders"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="advance-search-wrapper">
-                                                <div class="form-group">
-                                                    <label for="Amenities2">Amenities</label>
-                                                    <select name="Amenities2" id="Amenities2" class="form-select nice-select">
-                                                        <option value="1" disabled selected hidden>Select Amenities</option>
-                                                        <option value="2">Gymnasium</option>
-                                                        <option value="3">Swiming Pool</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="Garage2">Garage </label>
-                                                    <select name="Garage2" id="Garage2" class="form-select nice-select">
-                                                        <option value="" disabled selected hidden>Select Garage</option>
-                                                        <option value="1">Small Garage</option>
-                                                        <option value="2">Large Garage</option>
-                                                        <option value="3">Extra Large Garage</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="Floor_Level2">Floor Level</label>
-                                                    <select name="Floor_Level2" id="Floor_Level2" class="form-select nice-select">
-                                                        <option value="Floor_Level" disabled selected hidden>Select Floor Level</option>
-                                                        <option value="1">Ground Floor</option>
-                                                        <option value="2">Middle Floor</option>
-                                                        <option value="3">Top Floor</option>
-                                                    </select>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="parking_spaces2">Parking Spaces</label>
-                                                    <select name="parking_spaces2" id="parking_spaces2" class="form-select nice-select">
-                                                        <option value="" disabled selected hidden>Select Parking Spaces</option>
-                                                        <option value="1">No Parking</option>
-                                                        <option value="2">2 Space</option>
-                                                        <option value="3">3 Spaces</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="form-group">
-                                                <label for="max_bedrooms22">Max of Bedrooms</label>
-                                                <select name="max_bedrooms2" id="max_bedrooms22" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Max Bedrooms</option>
-                                                    <option value="1">1 Bedroom</option>
-                                                    <option value="2">2 Bedrooms</option>
-                                                    <option value="3">3 Bedrooms</option>
-                                                    <option value="4">4 Bedrooms</option>
-                                                    <option value="5">5+ Bedrooms</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label for="max_bedrooms2">Max of Bedrooms</label>
-                                                <select name="max_bedrooms2" id="max_bedrooms2" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Max Bedrooms</option>
-                                                    <option value="1">1 Bedroom</option>
-                                                    <option value="2">2 Bedrooms</option>
-                                                    <option value="3">3 Bedrooms</option>
-                                                    <option value="4">4 Bedrooms</option>
-                                                    <option value="5">5+ Bedrooms</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label for="location2">Location</label>
-                                                <select name="location2" id="location2" class="form-select nice-select">
-                                                    <option value="" disabled selected hidden>Select Location</option>
-                                                    <option value="new_york">New York</option>
-                                                    <option value="los_angeles">Los Angeles</option>
-                                                    <option value="chicago">Chicago</option>
-                                                    <option value="houston">Houston</option>
-                                                    <option value="miami">Miami</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <p class="price-range-title">Price Range</p>
-                                                <div class="price_slider_wrapper">
-                                                    <div class="price_slider"></div>
-                                                    <div class="price_label">
-                                                        <span class="from">$125000</span>-<span class="to">$825,000.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="advance-btn-wrapper">
-                                                <div class="advance-search-btn">
-                                                    <div class="search-btn-item">
-                                                        <a class="th-btn radius w-100"><i class="fa-regular fa-magnifying-glass me-2"></i> Search Property </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
-    <!--======== / Search Section ========--><!--==============================
+    <?php include 'view/home/search.php'?>
+    <!--======== / Search Section ========-->
+    
+    <!--==============================
 Feature Area  
 ==============================-->
     <section class="popular-sec-1 space">
@@ -1618,7 +650,10 @@ Feature Area
                 </div>
             </div>
         </div>
-    </section><!--==============================
+    </section>
+    
+    
+    <!--==============================
 Why choose Area  
 ==============================-->
     <div class="why-sec-1 space" id="why-sec" data-bg-src="assets/img/why/why-choose-1-bg.jpg">
@@ -1708,7 +743,9 @@ Why choose Area
                 </div>
             </div>
         </div>
-    </div><!--==============================
+    </div>
+    
+    <!--==============================
 Feature Area  
 ==============================-->
     <section class="popular-sec-1 space">
@@ -2017,7 +1054,9 @@ Feature Area
                 </div>
             </div>
         </div>
-    </section><!--==============================
+    </section>
+    
+    <!--==============================
 Property Values Area  
 ==============================-->
     <section class="property-values-sec-1 bg-smoke overflow-hidden" data-bg-src="assets/img/bg/property-values-bg-shape.png">
@@ -2089,7 +1128,9 @@ Property Values Area
                 </div>
             </div>
         </div>
-    </section><!--==============================
+    </section>
+    
+    <!--==============================
 Gallery Area  
 ==============================-->
     <div class="gallery-sec-1 overflow-hidden space overflow-hidden">
@@ -2285,7 +1326,9 @@ Gallery Area
                 </div>
             </div>
         </div>
-    </div><!--==============================
+    </div>
+    
+    <!--==============================
 Cites Explore Area  
 ==============================-->
     <section class="explore-cites-sec overflow-hidden">
@@ -2524,7 +1567,9 @@ Team Area
                 </div>
             </div>
         </div>
-    </section><!--==============================
+    </section>
+    
+    <!--==============================
 Testimonial Area  
 ==============================-->
     <section class="testi-card-area-1 bg-smoke space bg-smoke overflow-hidden" data-bg-src="assets/img/bg/property-values-bg-shape.png">
@@ -2807,7 +1852,9 @@ Testimonial Area
                 </div>
             </div>
         </div>
-    </section><!--==============================
+    </section>
+    
+    <!--==============================
 Blog Area  
 ==============================-->
     <section class="space overflow-hidden" id="blog-sec">
@@ -2962,7 +2009,9 @@ Blog Area
                 <button data-slider-next="#blogSlider1" class="slider-arrow slider-next"><i class="far fa-arrow-right"></i></button>
             </div>
         </div>
-    </section><!--==============================
+    </section>
+    
+    <!--==============================
 	Footer Area
 ==============================-->
     <?php include 'view/footer.php' ?>
