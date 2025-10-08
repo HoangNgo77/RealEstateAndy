@@ -40,15 +40,15 @@
 
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
     <!-- Swiper Js -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
   </head>
 
 
@@ -74,37 +74,24 @@
       </svg>
     </div>
 
-    <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
-    <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- Tilt JS -->
-    <script src="assets/js/tilt.jquery.min.js"></script>
-    <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <!-- Lenis -->
-    <script src="assets/js/lenis.min.js"></script>
+    <script src="{{ asset('assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/tilt.jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('assets/js/lenis.min.js') }}"></script>
 
-    <!-- 360 degree Js start -->
-    <script src="assets/js/360.min.js"></script>
-    <script src="assets/js/panolens.min.js"></script>
-    <!-- 360 degree Js end -->
+    <script src="{{ asset('assets/js/360.min.js') }}"></script>
+    <script src="{{ asset('assets/js/panolens.min.js') }}"></script>
 
-    <!-- Wow Js -->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- nice select -->
-    <script src="assets/js/nice-select.min.js"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/js/nice-select.min.js') }}"></script>
 
-    <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
   </body>
 
 </html>
