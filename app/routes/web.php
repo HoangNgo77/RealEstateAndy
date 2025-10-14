@@ -1,18 +1,23 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PropertyController;
 
 /**
+ * Homepage
+ */
+Route::get('/', [HomeController::class, 'index'])->name('home');
+
+/**
  * Property Routes
  */
-Route::get('properties', [PropertyController::class, 'index']);
-Route::get('properties/{slug}', [PropertyController::class, 'show']);
+Route::get('properties', [PropertyController::class, 'index'])->name('properties.index');
+Route::get('properties/{slug}', [PropertyController::class, 'show'])->name('properties.show');
 
 /**
  * Page Routes
  */
-Route::view('/', 'pages.home');
 Route::view('about', 'pages.about');
 Route::view('blog', 'pages.blog');
 Route::view('blog-detail', 'pages.blog-detail');
