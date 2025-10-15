@@ -20,7 +20,7 @@
         <div class="swiper th-slider " id="heroSlider1" data-slider-options='{"effect":"fade", "loop":true, "autoplay":true, "autoHeight": "false"}'>
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="hero-inner hero-style1" data-bg-src="assets/img/hero/hero_bg_1_1.jpg">
+                    <div class="hero-inner hero-style1" data-bg-src="https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg">
                         <div class="container">
                             <div class="row gy-50 gx-40 align-items-center">
                                 <div class="col-xxl-7 col-xl-7 col-lg-8">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="hero-inner hero-style1" data-bg-src="assets/img/hero/hero_bg_1_2.jpg">
+                    <div class="hero-inner hero-style1" data-bg-src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg">
                         <div class="container">
                             <div class="row gy-50 gx-40 align-items-center">
                                 <div class="col-xxl-7 col-xl-7 col-lg-8">
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="hero-inner hero-style1" data-bg-src="assets/img/hero/hero_bg_1_3.jpg">
+                    <div class="hero-inner hero-style1" data-bg-src="https://images.pexels.com/photos/1546166/pexels-photo-1546166.jpeg">
                         <div class="container">
                             <div class="row gy-50 gx-40 align-items-center">
                                 <div class="col-xxl-7 col-xl-7 col-lg-8">
@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="hero-inner hero-style1" data-bg-src="assets/img/hero/hero_bg_1_4.jpg">
+                    <div class="hero-inner hero-style1" data-bg-src="https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg">
                         <div class="container">
                             <div class="row gy-50 gx-40 align-items-center">
                                 <div class="col-xxl-7 col-xl-7 col-lg-8">
