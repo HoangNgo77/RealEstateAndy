@@ -11,8 +11,9 @@ class HomeController extends Controller
     {
         $bestProperties = $this->getBestProperties();
         $luxuryProperties = $this->getLuxuryProperties();
+        $cities = $this->getCities();
 
-        return view('pages.home', compact('bestProperties', 'luxuryProperties'));
+        return view('pages.home', compact('bestProperties', 'luxuryProperties', 'cities'));
     }
 
     private function getBestProperties()
@@ -28,6 +29,14 @@ class HomeController extends Controller
         return Property::query()
             ->orderBy('created_at', 'desc')
             ->take(20)
+            ->get();
+    }
+
+    private function getCities()
+    {
+        return Property::query()
+            ->groupBy('city')
+            ->selectRaw('city, COUNT(*) as property_count')
             ->get();
     }
 }

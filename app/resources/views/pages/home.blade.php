@@ -1019,174 +1019,21 @@
             <div class="slider-area">
                 <div class="swiper th-slider has-shadow gallery-1" id="gallerySlider1" data-slider-options='{"autoplay":true,"centeredSlides":true,"loop":true,"breakpoints":{"0":{"slidesPerView":1,"spaceBetween":20},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"2.4"},"1400":{"slidesPerView":"3.5"},"1500":{"slidesPerView":"4.5"}}}'>
                     <div class="swiper-wrapper">
+                        @foreach($cities as $city)
                         <div class="swiper-slide">
                             <div class="gallery-card">
                                 <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-1.jpg" alt="gallery image">
+                                    <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg" alt="gallery image">
                                     <div class="gallery-content">
                                         <div class="gallery-content-wrapper">
-                                            <p class="box-text">250 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">London, United Kngdom</a></h2>
+                                            <p class="box-text">{{ $city->property_count }} Properties</p>
+                                            <h2 class="box-title"><a href="property-details.html">{{ $city->city }}</a></h2>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="swiper-slide">
-                            <div class="gallery-card">
-                                <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-2.jpg" alt="gallery image">
-                                    <div class="gallery-content">
-                                        <div class="gallery-content-wrapper">
-                                            <p class="box-text">135 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">New Jersey, New York</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="gallery-card">
-                                <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image">
-                                    <div class="gallery-content">
-                                        <div class="gallery-content-wrapper">
-                                            <p class="box-text">225 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">Cape Town, South Africa</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="gallery-card">
-                                <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-4.jpg" alt="gallery image">
-                                    <div class="gallery-content">
-                                        <div class="gallery-content-wrapper">
-                                            <p class="box-text">143 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">Los Angeles, New York</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="gallery-card">
-                                <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-5.jpg" alt="gallery image">
-                                    <div class="gallery-content">
-                                        <div class="gallery-content-wrapper">
-                                            <p class="box-text">321 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">Seoul, South Korea</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="gallery-card">
-                                <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-6.jpg" alt="gallery image">
-                                    <div class="gallery-content">
-                                        <div class="gallery-content-wrapper">
-                                            <p class="box-text">212 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">Seoul, South Korea</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="gallery-card">
-                                <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-1.jpg" alt="gallery image">
-                                    <div class="gallery-content">
-                                        <div class="gallery-content-wrapper">
-                                            <p class="box-text">432 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">London, United Kngdom</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="gallery-card">
-                                <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-2.jpg" alt="gallery image">
-                                    <div class="gallery-content">
-                                        <div class="gallery-content-wrapper">
-                                            <p class="box-text">211 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">New Jersey, New York</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="gallery-card">
-                                <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image">
-                                    <div class="gallery-content">
-                                        <div class="gallery-content-wrapper">
-                                            <p class="box-text">342 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">Cape Town, South Africa</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="gallery-card">
-                                <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-4.jpg" alt="gallery image">
-                                    <div class="gallery-content">
-                                        <div class="gallery-content-wrapper">
-                                            <p class="box-text">213 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">Los Angeles, New York</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="gallery-card">
-                                <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-5.jpg" alt="gallery image">
-                                    <div class="gallery-content">
-                                        <div class="gallery-content-wrapper">
-                                            <p class="box-text">431 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">Seoul, South Korea</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="gallery-card">
-                                <div class="gallery-img img-shine">
-                                    <img src="assets/img/gallery/gallery-1-6.jpg" alt="gallery image">
-                                    <div class="gallery-content">
-                                        <div class="gallery-content-wrapper">
-                                            <p class="box-text">214 Properties</p>
-                                            <h2 class="box-title"><a href="property-details.html">Seoul, South Korea</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                        @endforeach
                     </div>
                     <button data-slider-prev="#gallerySlider1" class="slider-arrow slider-prev style2"><i class="far fa-arrow-left"></i></button>
                     <button data-slider-next="#gallerySlider1" class="slider-arrow slider-next style2"><i class="far fa-arrow-right"></i></button>
