@@ -941,7 +941,7 @@
                             <i class="fa-sharp fa-solid fa-play"></i>
                         </a>
                         <div class="video-thumb">
-                            <img src="assets/img/property-values/property-values-1-1.jpg" alt="">
+                            <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg" alt="">
                         </div>
                     </div>
                 </div>
