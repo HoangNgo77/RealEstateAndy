@@ -19,6 +19,16 @@ return new class extends Migration
             $table->text('description');
             $table->double('price')->nullable();
 
+            /**
+             * Address details
+             */
+            $table->string('address')->nullable();
+            $table->string('city')->nullable();
+            $table->string('state')->nullable();
+
+            /**
+             * Property details
+             */
             $table->string('type')->nullable();
             $table->integer('room')->nullable();
             $table->integer('bedroom')->nullable();
@@ -31,9 +41,15 @@ return new class extends Migration
             $table->boolean('wifi')->nullable();
             $table->integer('builded_year')->nullable();
 
+            /**
+             * User action tracking
+             */
             $table->foreignIdFor(User::class, 'created_by');
             $table->foreignIdFor(User::class, 'updated_by')->nullable();
 
+            /**
+             * Publication details
+             */
             $table->timestamp('published_at')->nullable();
             $table->timestamps();
             $table->softDeletes();
