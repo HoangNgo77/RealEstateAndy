@@ -670,18 +670,16 @@
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
+                                    @foreach(collect([
+                                        'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg',
+                                        'https://images.pexels.com/photos/3255246/pexels-photo-3255246.jpeg',
+                                        'https://images.pexels.com/photos/2453292/pexels-photo-2453292.jpeg',
+                                        'https://images.pexels.com/photos/2028176/pexels-photo-2028176.jpeg'
+                                    ])->shuffle() as $image)
                                     <div class="swiper-slide">
-                                        <a class="popular-popup-image" href="assets/img/popular/popular-1-1.jpg"><img src="assets/img/popular/popular-1-1.jpg" alt="Image"></a>
+                                        <a class="popular-popup-image" href="assets/img/popular/popular-1-1.jpg"><img src="{{ $image }}" alt="Image"></a>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <a class="popular-popup-image" href="assets/img/popular/popular-1-2.jpg"><img src="assets/img/popular/popular-1-2.jpg" alt="Image"></a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a class="popular-popup-image" href="assets/img/popular/popular-1-1.jpg"><img src="assets/img/popular/popular-1-1.jpg" alt="Image"></a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a class="popular-popup-image" href="assets/img/popular/popular-1-2.jpg"><img src="assets/img/popular/popular-1-2.jpg" alt="Image"></a>
-                                    </div>
+                                    @endforeach
                                 </div>
                                 <div class="icon-wrap">
                                     <button class="slider-arrow slider-prev"><i class="far fa-arrow-left"></i></button>
