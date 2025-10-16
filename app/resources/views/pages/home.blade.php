@@ -1060,17 +1060,17 @@
                                     <!-- Main panorama images -->
                                     <div class="swiper-slide">
                                         <div class="explore-single-slide">
-                                            <img src="assets/img/explore-cites/explore-cites-bg-1.jpg" alt="img">
+                                            <img src="https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg" alt="img">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="explore-single-slide">
-                                            <img src="assets/img/explore-cites/explore-cites-bg-2.jpg" alt="img">
+                                            <img src="https://images.pexels.com/photos/23916862/pexels-photo-23916862.png" alt="img">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="explore-single-slide">
-                                            <img src="assets/img/explore-cites/explore-cites-bg-3.jpg" alt="img">
+                                            <img src="https://images.pexels.com/photos/27562213/pexels-photo-27562213.png" alt="img">
                                         </div>
                                     </div>
                                 </div>
