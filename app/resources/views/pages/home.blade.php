@@ -1144,7 +1144,7 @@
                         <div class="swiper-slide">
                             <div class="team-card">
                                 <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="assets/img/team/team_1_1.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_1.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <h3 class="box-title"><a href="team-details.html">Bernice Roberts</a></h3>
@@ -1165,7 +1165,7 @@
                         <div class="swiper-slide">
                             <div class="team-card">
                                 <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="assets/img/team/team_1_2.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_2.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <h3 class="box-title"><a href="team-details.html">Mr. Raul Hirthe</a></h3>
@@ -1186,7 +1186,7 @@
                         <div class="swiper-slide">
                             <div class="team-card">
                                 <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="assets/img/team/team_1_3.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_3.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <h3 class="box-title"><a href="team-details.html">Michel John</a></h3>
@@ -1207,7 +1207,7 @@
                         <div class="swiper-slide">
                             <div class="team-card">
                                 <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="assets/img/team/team_1_4.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_4.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <h3 class="box-title"><a href="team-details.html">William Bins</a></h3>
@@ -1228,7 +1228,7 @@
                         <div class="swiper-slide">
                             <div class="team-card">
                                 <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="assets/img/team/team_1_1.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_1.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <h3 class="box-title"><a href="team-details.html">Bernice Roberts</a></h3>
@@ -1249,7 +1249,7 @@
                         <div class="swiper-slide">
                             <div class="team-card">
                                 <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="assets/img/team/team_1_2.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_2.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <h3 class="box-title"><a href="team-details.html">Mr. Raul Hirthe</a></h3>
@@ -1323,7 +1323,7 @@
                                             <p class="text">Property owner</p>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi_1_1.jpg" alt="Team">
+                                            <img src="https://i.pravatar.cc/300?u={{rand()}}" alt="Team">
 
                                             <div class="box-review">
                                                 <i class="fa-sharp fa-solid fa-star"></i>
@@ -1355,7 +1355,7 @@
                                             <p class="text">Property owner</p>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi_1_2.jpg" alt="Team">
+                                            <img src="https://i.pravatar.cc/300?u={{rand()}}" alt="Team">
 
                                             <div class="box-review">
                                                 <i class="fa-sharp fa-solid fa-star"></i>
@@ -1387,7 +1387,7 @@
                                             <p class="text">Property owner</p>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi_1_3.jpg" alt="Team">
+                                            <img src="https://i.pravatar.cc/300?u={{rand()}}" alt="Team">
 
                                             <div class="box-review">
                                                 <i class="fa-sharp fa-solid fa-star"></i>
@@ -1419,7 +1419,7 @@
                                             <p class="text">Property owner</p>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi_1_1.jpg" alt="Team">
+                                            <img src="https://i.pravatar.cc/300?u={{rand()}}" alt="Team">
 
                                             <div class="box-review">
                                                 <i class="fa-sharp fa-solid fa-star"></i>
@@ -1451,7 +1451,7 @@
                                             <p class="text">Property owner</p>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi_1_2.jpg" alt="Team">
+                                            <img src="https://i.pravatar.cc/300?u={{rand()}}" alt="Team">
 
                                             <div class="box-review">
                                                 <i class="fa-sharp fa-solid fa-star"></i>
@@ -1483,7 +1483,7 @@
                                             <p class="text">Property owner</p>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi_1_3.jpg" alt="Team">
+                                            <img src="https://i.pravatar.cc/300?u={{rand()}}" alt="Team">
 
                                             <div class="box-review">
                                                 <i class="fa-sharp fa-solid fa-star"></i>
@@ -1515,7 +1515,7 @@
                                             <p class="text">Property owner</p>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi_1_1.jpg" alt="Team">
+                                            <img src="https://i.pravatar.cc/300?u={{rand()}}" alt="Team">
 
                                             <div class="box-review">
                                                 <i class="fa-sharp fa-solid fa-star"></i>
@@ -1547,7 +1547,7 @@
                                             <p class="text">Property owner</p>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi_1_2.jpg" alt="Team">
+                                            <img src="https://i.pravatar.cc/300?u={{rand()}}" alt="Team">
 
                                             <div class="box-review">
                                                 <i class="fa-sharp fa-solid fa-star"></i>
