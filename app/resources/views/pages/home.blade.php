@@ -1591,7 +1591,7 @@
                             <div class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="blog-details.html">
-                                        <img src="assets/img/blog/blog_1_1.jpg" alt="Image">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_1.jpg" alt="Image">
                                     </a>
                                     <div class="date">
                                         <a href="blog.html"><span>22</span> <span>Feb</span></a>
@@ -1613,7 +1613,7 @@
                             <div class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="blog-details.html">
-                                        <img src="assets/img/blog/blog_1_2.jpg" alt="Image">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_2.jpg" alt="Image">
                                     </a>
                                     <div class="date">
                                         <a href="blog.html"><span>23</span> <span>Feb</span></a>
@@ -1635,7 +1635,7 @@
                             <div class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="blog-details.html">
-                                        <img src="assets/img/blog/blog_1_3.jpg" alt="Image">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_3.jpg" alt="Image">
                                     </a>
                                     <div class="date">
                                         <a href="blog.html"><span>24</span> <span>Feb</span></a>
@@ -1657,7 +1657,7 @@
                             <div class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="blog-details.html">
-                                        <img src="assets/img/blog/blog_1_4.jpg" alt="Image">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_4.jpg" alt="Image">
                                     </a>
                                     <div class="date">
                                         <a href="blog.html"><span>26</span> <span>Feb</span></a>
@@ -1679,7 +1679,7 @@
                             <div class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="blog-details.html">
-                                        <img src="assets/img/blog/blog_1_5.jpg" alt="Image">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_5.jpg" alt="Image">
                                     </a>
                                     <div class="date">
                                         <a href="blog.html"><span>27</span> <span>Feb</span></a>
@@ -1701,7 +1701,7 @@
                             <div class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="blog-details.html">
-                                        <img src="assets/img/blog/blog_1_6.jpg" alt="Image">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_6.jpg" alt="Image">
                                     </a>
                                     <div class="date">
                                         <a href="blog.html"><span>16</span> <span>Mar</span></a>
