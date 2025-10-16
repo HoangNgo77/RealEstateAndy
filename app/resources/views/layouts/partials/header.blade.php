@@ -23,18 +23,6 @@
                   <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
                 </div>
               </li>
-              <li class="lang-wrapper">
-                <div class="lang-menu">
-                  <div class="icon">
-                    <img src="assets/img/icon/english.png" alt="icon">
-                  </div>
-                  <select class="form-select nice-select">
-                    <option selected="">English</option>
-                    <option>Spanish</option>
-                    <option>Hindi</option>
-                  </select>
-                </div>
-              </li>
             </ul>
           </div>
         </div>
