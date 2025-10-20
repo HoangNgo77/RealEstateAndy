@@ -18,7 +18,7 @@ Route::get('properties/{slug}', [PropertyController::class, 'show'])->name('prop
 /**
  * Page Routes
  */
-Route::view('about', 'pages.about');
-Route::view('blog', 'pages.blog');
-Route::view('blog-detail', 'pages.blog-detail');
-Route::view('contact', 'pages.contact');
+Route::view('about', 'pages.about')->name('about');
+Route::view('blog', 'pages.blog')->name('blog.index');
+Route::view('blog-detail', 'pages.blog-detail')->name('blog.show');
+Route::view('contact', 'pages.contact')->name('contact');
