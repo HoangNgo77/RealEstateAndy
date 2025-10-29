@@ -62,7 +62,7 @@
 
 
     <!--********************************
-   		Code Start From Here 
+   		Code Start From Here
 	******************************** -->
 
     <!--==============================
@@ -115,7 +115,7 @@
                     <ul class="woocommerce-mini-cart cart_list product_list_widget ">
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_1.png" alt="Cart Image">Bosco Apple Fruit</a>
+                            <a href="#"><img src="https://html.themehour.net/piller/demo/assets/img/product/product_1_1.png" alt="Cart Image">Bosco Apple Fruit</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
@@ -123,7 +123,7 @@
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_2.png" alt="Cart Image">Green Cauliflower</a>
+                            <a href="#"><img src="https://html.themehour.net/piller/demo/assets/img/product/product_1_2.png" alt="Cart Image">Green Cauliflower</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
@@ -131,7 +131,7 @@
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_3.png" alt="Cart Image">Mandarin orange</a>
+                            <a href="#"><img src="https://html.themehour.net/piller/demo/assets/img/product/product_1_3.png" alt="Cart Image">Mandarin orange</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
@@ -139,7 +139,7 @@
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_4.png" alt="Cart Image">Shallot Red onion</a>
+                            <a href="#"><img src="https://html.themehour.net/piller/demo/assets/img/product/product_1_4.png" alt="Cart Image">Shallot Red onion</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
@@ -147,7 +147,7 @@
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_5.png" alt="Cart Image">Sour Red Cherry</a>
+                            <a href="#"><img src="https://html.themehour.net/piller/demo/assets/img/product/product_1_5.png" alt="Cart Image">Sour Red Cherry</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
@@ -175,7 +175,7 @@
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="index.html"><img src="assets/img/logo.svg" alt="Piller-html"></a>
+                        <a href="index.html"><img src="https://html.themehour.net/piller/demo/assets/img/logo.svg" alt="Piller-html"></a>
                     </div>
                     <p class="about-text mb-4">Pillar is a luxury to the resilience, adaptability, Spacious modern villa living room with centrally placed swimming pool blending indooroutdoor.</p>
 
@@ -198,7 +198,7 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/featured-listing-sidebar-1-1.jpg" alt="Image"></a>
+                            <a href="blog-details.html"><img src="https://html.themehour.net/piller/demo/assets/img/blog/featured-listing-sidebar-1-1.jpg" alt="Image"></a>
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta">
@@ -209,7 +209,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/featured-listing-sidebar-1-3.jpg" alt="Image"></a>
+                            <a href="blog-details.html"><img src="https://html.themehour.net/piller/demo/assets/img/blog/featured-listing-sidebar-1-3.jpg" alt="Image"></a>
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta">
@@ -220,7 +220,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/featured-listing-sidebar-1-3.jpg" alt="Image"></a>
+                            <a href="blog-details.html"><img src="https://html.themehour.net/piller/demo/assets/img/blog/featured-listing-sidebar-1-3.jpg" alt="Image"></a>
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta">
@@ -254,7 +254,7 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Piller-html"></a>
+                <a href="index.html"><img src="https://html.themehour.net/piller/demo/assets/img/logo.svg" alt="Piller-html"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
@@ -353,7 +353,7 @@
                                 <li class="lang-wrapper">
                                     <div class="lang-menu">
                                         <div class="icon">
-                                            <img src="assets/img/icon/english.png" alt="icon">
+                                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/english.png" alt="icon">
                                         </div>
                                         <select class="form-select nice-select">
                                             <option selected="">English</option>
@@ -375,7 +375,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/img/logo.svg" alt="Piller-html"></a>
+                                <a href="index.html"><img src="https://html.themehour.net/piller/demo/assets/img/logo.svg" alt="Piller-html"></a>
                             </div>
                         </div>
                         <div class="col-auto">
@@ -390,7 +390,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/index.jpg" alt="Home One">
+                                                                    <img src="https://html.themehour.net/piller/demo/assets/img/pages/index.jpg" alt="Home One">
                                                                     <div class="btn-wrap">
                                                                         <a href="index.html" class="th-btn radius">View Demo</a>
                                                                     </div>
@@ -401,7 +401,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-2.jpg" alt="Home Two">
+                                                                    <img src="https://html.themehour.net/piller/demo/assets/img/pages/home-2.jpg" alt="Home Two">
                                                                     <div class="btn-wrap">
                                                                         <a href="home-2.html" class="th-btn radius">View Demo</a>
                                                                     </div>
@@ -412,7 +412,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-3.jpg" alt="Home Three">
+                                                                    <img src="https://html.themehour.net/piller/demo/assets/img/pages/home-3.jpg" alt="Home Three">
                                                                     <div class="btn-wrap">
                                                                         <a href="home-3.html" class="th-btn radius">View Demo</a>
                                                                     </div>
@@ -501,7 +501,7 @@
     Breadcumb
 ============================== -->
 
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcrumb-bg.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="https://html.themehour.net/piller/demo/assets/img/bg/breadcrumb-bg.jpg">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Us</h1>
@@ -513,14 +513,14 @@
         </div>
     </div>
     <!--==============================
-About Area  
+About Area
 ==============================-->
     <div class="about-1-wrapper space overflow-hidden" id="about-sec">
         <div class="shape-mockup " data-bottom="0" data-left="0">
-            <img src="assets/img/icon/about-2-shape.png" alt="img">
+            <img src="https://html.themehour.net/piller/demo/assets/img/icon/about-2-shape.png" alt="img">
         </div>
         <div class="shape-mockup jump d-none d-lg-block" data-bottom="11%" data-left="5%">
-            <img src="assets/img/icon/about-inner-shape.png" alt="img">
+            <img src="https://html.themehour.net/piller/demo/assets/img/icon/about-inner-shape.png" alt="img">
         </div>
         <div class="container">
             <div class="row gy-40 gx-70 justify-content-center">
@@ -529,7 +529,7 @@ About Area
                         <div class="about-logo-wrap-2">
                             <div class="logo-icon-wrap">
                                 <div class="logo-icon">
-                                    <img src="assets/img/icon/logo-circle-icon.png" alt="img">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/icon/logo-circle-icon.png" alt="img">
                                 </div>
                                 <div class="logo-icon-wrap__text">
                                     <span class="logo-animation">PILLAR REAL ESTATE HOME * REAL ESTATE</span>
@@ -538,21 +538,21 @@ About Area
                         </div>
                         <div class="about-left">
                             <div class="img-box">
-                                <img src="assets/img/about/about-1-left-1.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/about/about-1-left-1.jpg" alt="Image">
                             </div>
                             <div class="img-box small">
-                                <img src="assets/img/about/about-1-left-2.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/about/about-1-left-2.jpg" alt="Image">
                             </div>
                         </div>
                         <div class="about-middle">
-                            <img class="tilt-active" src="assets/img/about/about-1-middle.jpg" alt="Image">
+                            <img class="tilt-active" src="https://html.themehour.net/piller/demo/assets/img/about/about-1-middle.jpg" alt="Image">
                         </div>
                         <div class="about-right">
                             <div class="img-box small">
-                                <img src="assets/img/about/about-1-right-1.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/about/about-1-right-1.jpg" alt="Image">
                             </div>
                             <div class="img-box big">
-                                <img src="assets/img/about/about-1-right-2.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/about/about-1-right-2.jpg" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -567,7 +567,7 @@ About Area
                         <div class="col-lg-6 col-md-6 fadeinup wow">
                             <div class="about-1-item">
                                 <div class="icon">
-                                    <img src="assets/img/icon/about-1-1.svg" alt="icon">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/icon/about-1-1.svg" alt="icon">
                                 </div>
                                 <div class="content">
                                     <h3 class="box-title">Quality Services</h3>
@@ -578,7 +578,7 @@ About Area
                         <div class="col-lg-6 col-md-6 fadeinup wow">
                             <div class="about-1-item">
                                 <div class="icon">
-                                    <img src="assets/img/icon/about-1-2.svg" alt="icon">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/icon/about-1-2.svg" alt="icon">
                                 </div>
                                 <div class="content">
                                     <h3 class="box-title">Clients Feedback</h3>
@@ -590,7 +590,7 @@ About Area
                         <div class="col-lg-6 col-md-6 fadeinup wow">
                             <div class="about-1-item">
                                 <div class="icon">
-                                    <img src="assets/img/icon/about-1-3.svg" alt="icon">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/icon/about-1-3.svg" alt="icon">
                                 </div>
                                 <div class="content">
                                     <h3 class="box-title">Space Belongings</h3>
@@ -601,7 +601,7 @@ About Area
                         <div class="col-lg-6 col-md-6 fadeinup wow">
                             <div class="about-1-item">
                                 <div class="icon">
-                                    <img src="assets/img/icon/about-1-4.svg" alt="icon">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/icon/about-1-4.svg" alt="icon">
                                 </div>
                                 <div class="content">
                                     <h3 class="box-title">Personal Liability</h3>
@@ -630,9 +630,9 @@ About Area
             </div>
         </div>
     </div><!--==============================
-Why choose Area  
+Why choose Area
 ==============================-->
-    <div class="why-sec-2 bg-smoke space" id="why-sec" data-bg-src="assets/img/shape/what-we-do-3-bg.png">
+    <div class="why-sec-2 bg-smoke space" id="why-sec" data-bg-src="https://html.themehour.net/piller/demo/assets/img/shape/what-we-do-3-bg.png">
         <div class="container">
             <div class="row justify-content-lg-between gy-4 justify-content-center align-items-center mb-40">
                 <div class="col-lg-6">
@@ -650,7 +650,7 @@ Why choose Area
                     <div class="why-card-1 style-2 style-4">
                         <h4 class="count">01</h4>
                         <div class="why-card-1__icon">
-                            <img src="assets/img/icon/why-icon-1-1.svg" alt="image">
+                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/why-icon-1-1.svg" alt="image">
                         </div>
                         <div class="why-card-1__content">
                             <h3 class="box-title"><a href="service.html">Easty To Rent</a></h3>
@@ -666,7 +666,7 @@ Why choose Area
                     <div class="why-card-1 style-2 style-4">
                         <h4 class="count">02</h4>
                         <div class="why-card-1__icon">
-                            <img src="assets/img/icon/why-icon-1-2.svg" alt="image">
+                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/why-icon-1-2.svg" alt="image">
                         </div>
                         <div class="why-card-1__content">
                             <h3 class="box-title"><a href="service.html">Carefully Crafted</a></h3>
@@ -682,7 +682,7 @@ Why choose Area
                     <div class="why-card-1 style-2 style-4">
                         <h4 class="count">03</h4>
                         <div class="why-card-1__icon">
-                            <img src="assets/img/icon/why-icon-1-3.svg" alt="image">
+                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/why-icon-1-3.svg" alt="image">
                         </div>
                         <div class="why-card-1__content">
                             <h3 class="box-title"><a href="service.html">Eco-Friendly & Green</a></h3>
@@ -698,7 +698,7 @@ Why choose Area
                     <div class="why-card-1 style-2 style-4">
                         <h4 class="count">04</h4>
                         <div class="why-card-1__icon">
-                            <img src="assets/img/icon/why-icon-1-4.svg" alt="image">
+                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/why-icon-1-4.svg" alt="image">
                         </div>
                         <div class="why-card-1__content">
                             <h3 class="box-title"><a href="service.html">Lavish Greenary</a></h3>
@@ -714,7 +714,7 @@ Why choose Area
                     <div class="why-card-1 style-2 style-4">
                         <h4 class="count">05</h4>
                         <div class="why-card-1__icon">
-                            <img src="assets/img/icon/why-icon-1-1.svg" alt="image">
+                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/why-icon-1-1.svg" alt="image">
                         </div>
                         <div class="why-card-1__content">
                             <h3 class="box-title"><a href="service.html">In-built Wardrobe</a></h3>
@@ -730,7 +730,7 @@ Why choose Area
                     <div class="why-card-1 style-2 style-4">
                         <h4 class="count">06</h4>
                         <div class="why-card-1__icon">
-                            <img src="assets/img/icon/why-icon-1-2.svg" alt="image">
+                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/why-icon-1-2.svg" alt="image">
                         </div>
                         <div class="why-card-1__content">
                             <h3 class="box-title"><a href="service.html">Planned Construction</a></h3>
@@ -746,7 +746,7 @@ Why choose Area
                     <div class="why-card-1 style-2 style-4">
                         <h4 class="count">07</h4>
                         <div class="why-card-1__icon">
-                            <img src="assets/img/icon/why-icon-1-3.svg" alt="image">
+                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/why-icon-1-3.svg" alt="image">
                         </div>
                         <div class="why-card-1__content">
                             <h3 class="box-title"><a href="service.html">Family & Community</a></h3>
@@ -762,7 +762,7 @@ Why choose Area
                     <div class="why-card-1 style-2 style-4">
                         <h4 class="count">08</h4>
                         <div class="why-card-1__icon">
-                            <img src="assets/img/icon/why-icon-1-4.svg" alt="image">
+                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/why-icon-1-4.svg" alt="image">
                         </div>
                         <div class="why-card-1__content">
                             <h3 class="box-title"><a href="service.html">Tech & Security</a></h3>
@@ -777,11 +777,11 @@ Why choose Area
             </div>
         </div>
     </div><!--==============================
-Team Area  
+Team Area
 ==============================-->
     <section class="team-area-1 space overflow-hidden">
         <div class="shape-mockup jump d-none d-lg-block" style="top: 6%; right: 4%;">
-            <img src="assets/img/shape/team-2-shape.png" alt="img">
+            <img src="https://html.themehour.net/piller/demo/assets/img/shape/team-2-shape.png" alt="img">
         </div>
         <div class="container">
             <div class="row justify-content-center">
@@ -798,9 +798,9 @@ Team Area
                     <div class="swiper-wrapper">
                         <!-- Single Item -->
                         <div class="swiper-slide">
-                            <div class="team-card style-2" data-bg-src="assets/img/shape/team-2-bg-shape.png">
+                            <div class="team-card style-2" data-bg-src="https://html.themehour.net/piller/demo/assets/img/shape/team-2-bg-shape.png">
                                 <div class="team-img">
-                                    <img src="assets/img/team/team_2_1.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_2_1.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <div class="left-contet">
@@ -819,9 +819,9 @@ Team Area
 
                         <!-- Single Item -->
                         <div class="swiper-slide">
-                            <div class="team-card style-2" data-bg-src="assets/img/shape/team-2-bg-shape.png">
+                            <div class="team-card style-2" data-bg-src="https://html.themehour.net/piller/demo/assets/img/shape/team-2-bg-shape.png">
                                 <div class="team-img">
-                                    <img src="assets/img/team/team_2_2.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_2_2.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <div class="left-contet">
@@ -840,9 +840,9 @@ Team Area
 
                         <!-- Single Item -->
                         <div class="swiper-slide">
-                            <div class="team-card style-2" data-bg-src="assets/img/shape/team-2-bg-shape.png">
+                            <div class="team-card style-2" data-bg-src="https://html.themehour.net/piller/demo/assets/img/shape/team-2-bg-shape.png">
                                 <div class="team-img">
-                                    <img src="assets/img/team/team_2_3.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_2_3.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <div class="left-contet">
@@ -861,9 +861,9 @@ Team Area
 
                         <!-- Single Item -->
                         <div class="swiper-slide">
-                            <div class="team-card style-2" data-bg-src="assets/img/shape/team-2-bg-shape.png">
+                            <div class="team-card style-2" data-bg-src="https://html.themehour.net/piller/demo/assets/img/shape/team-2-bg-shape.png">
                                 <div class="team-img">
-                                    <img src="assets/img/team/team_2_4.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_2_4.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <div class="left-contet">
@@ -882,9 +882,9 @@ Team Area
 
                         <!-- Single Item -->
                         <div class="swiper-slide">
-                            <div class="team-card style-2" data-bg-src="assets/img/shape/team-2-bg-shape.png">
+                            <div class="team-card style-2" data-bg-src="https://html.themehour.net/piller/demo/assets/img/shape/team-2-bg-shape.png">
                                 <div class="team-img">
-                                    <img src="assets/img/team/team_2_5.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_2_5.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <div class="left-contet">
@@ -903,9 +903,9 @@ Team Area
 
                         <!-- Single Item -->
                         <div class="swiper-slide">
-                            <div class="team-card style-2" data-bg-src="assets/img/shape/team-2-bg-shape.png">
+                            <div class="team-card style-2" data-bg-src="https://html.themehour.net/piller/demo/assets/img/shape/team-2-bg-shape.png">
                                 <div class="team-img">
-                                    <img src="assets/img/team/team_2_6.png" alt="Team">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_2_6.png" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <div class="left-contet">
@@ -936,14 +936,14 @@ Team Area
             </div>
         </div>
     </section><!--==============================
-Counter Area  
+Counter Area
 ==============================-->
-    <div class="counter-sec1 space overflow-hidden" data-bg-src="assets/img/bg/counter-1-bg.jpg">
+    <div class="counter-sec1 space overflow-hidden" data-bg-src="https://html.themehour.net/piller/demo/assets/img/bg/counter-1-bg.jpg">
         <div class="container">
             <div class="counter-card-wrap">
                 <div class="counter-card fadeinup wow">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter_1_1.svg" alt="Icon">
+                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/counter_1_1.svg" alt="Icon">
                     </div>
                     <div class="media-body">
                         <h4 class="box-number"><span class="counter-number"> 1950 </span><span class="plus-simple">+</span></h4>
@@ -953,7 +953,7 @@ Counter Area
                 <div class="divider"></div>
                 <div class="counter-card fadeinup wow">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter_1_1.svg" alt="Icon">
+                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/counter_1_1.svg" alt="Icon">
                     </div>
                     <div class="media-body">
                         <h4 class="box-number"><span class="counter-number"> 2 </span><span class="plus-simple">m</span></h4>
@@ -963,7 +963,7 @@ Counter Area
                 <div class="divider"></div>
                 <div class="counter-card fadeinup wow">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter_1_1.svg" alt="Icon">
+                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/counter_1_1.svg" alt="Icon">
                     </div>
                     <div class="media-body">
                         <h4 class="box-number"><span class="counter-number"> 850 </span><span class="plus-simple">+</span></h4>
@@ -973,7 +973,7 @@ Counter Area
                 <div class="divider"></div>
                 <div class="counter-card fadeinup wow">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter_1_1.svg" alt="Icon">
+                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/counter_1_1.svg" alt="Icon">
                     </div>
                     <div class="media-body">
                         <h4 class="box-number"><span class="counter-number"> 98 </span><span class="plus-simple">%</span></h4>
@@ -984,11 +984,11 @@ Counter Area
             </div>
         </div>
     </div><!--==============================
-Testimonial Area  
+Testimonial Area
 ==============================-->
     <section class="testi-card-area-2 space-top overflow-hidden">
         <div class="shape-mockup spin d-none d-xxl-block" data-left="7%" data-top="14%">
-            <img src="assets/img/shape/hero-3-left-shape.png" alt="img">
+            <img src="https://html.themehour.net/piller/demo/assets/img/shape/hero-3-left-shape.png" alt="img">
         </div>
         <div class="container">
             <div class="row justify-content-center">
@@ -1007,7 +1007,7 @@ Testimonial Area
                                 <div class="testi-block style-2" dir="ltr">
                                     <div class="top-wrap">
                                         <div class="quote">
-                                            <img src="assets/img/icon/testi-2quote.svg" alt="quote">
+                                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/testi-2quote.svg" alt="quote">
                                         </div>
                                     </div>
                                     <div class="testi-content pe-xl-5 px-xl-5">
@@ -1022,7 +1022,7 @@ Testimonial Area
                                             <i class="fa-sharp fa-solid fa-star"></i>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi-2-1.jpg" alt="Team">
+                                            <img src="https://html.themehour.net/piller/demo/assets/img/testimonial/testi-2-1.jpg" alt="Team">
                                         </div>
                                         <div class="content">
                                             <h3 class="box-title">Georgia Schaden</h3>
@@ -1035,7 +1035,7 @@ Testimonial Area
                                 <div class="testi-block style-2" dir="ltr">
                                     <div class="top-wrap">
                                         <div class="quote">
-                                            <img src="assets/img/icon/testi-2quote.svg" alt="quote">
+                                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/testi-2quote.svg" alt="quote">
                                         </div>
                                     </div>
                                     <div class="testi-content pe-xl-5 px-xl-5">
@@ -1050,7 +1050,7 @@ Testimonial Area
                                             <i class="fa-sharp fa-solid fa-star"></i>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi-2-2.jpg" alt="Team">
+                                            <img src="https://html.themehour.net/piller/demo/assets/img/testimonial/testi-2-2.jpg" alt="Team">
                                         </div>
                                         <div class="content">
                                             <h3 class="box-title">Walter Deckow</h3>
@@ -1063,7 +1063,7 @@ Testimonial Area
                                 <div class="testi-block style-2" dir="ltr">
                                     <div class="top-wrap">
                                         <div class="quote">
-                                            <img src="assets/img/icon/testi-2quote.svg" alt="quote">
+                                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/testi-2quote.svg" alt="quote">
                                         </div>
                                     </div>
                                     <div class="testi-content pe-xl-5 px-xl-5">
@@ -1078,7 +1078,7 @@ Testimonial Area
                                             <i class="fa-sharp fa-solid fa-star"></i>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi-2-1.jpg" alt="Team">
+                                            <img src="https://html.themehour.net/piller/demo/assets/img/testimonial/testi-2-1.jpg" alt="Team">
                                         </div>
                                         <div class="content">
                                             <h3 class="box-title">Carlos Bauch</h3>
@@ -1091,7 +1091,7 @@ Testimonial Area
                                 <div class="testi-block style-2" dir="ltr">
                                     <div class="top-wrap">
                                         <div class="quote">
-                                            <img src="assets/img/icon/testi-2quote.svg" alt="quote">
+                                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/testi-2quote.svg" alt="quote">
                                         </div>
                                     </div>
                                     <div class="testi-content pe-xl-5 px-xl-5">
@@ -1106,7 +1106,7 @@ Testimonial Area
                                             <i class="fa-sharp fa-solid fa-star"></i>
                                         </div>
                                         <div class="team-img">
-                                            <img src="assets/img/testimonial/testi-2-2.jpg" alt="Team">
+                                            <img src="https://html.themehour.net/piller/demo/assets/img/testimonial/testi-2-2.jpg" alt="Team">
                                         </div>
                                         <div class="content">
                                             <h3 class="box-title">Julia Era</h3>
@@ -1129,12 +1129,12 @@ Testimonial Area
                     <div class="testi-bottom-review-wrap">
                         <div class="testi-bottom-item">
                             <div class="trust-content">
-                                <div class="icon"><img src="assets/img/icon/star-icon.svg" alt="img"></div>
+                                <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/star-icon.svg" alt="img"></div>
                                 <h4 class="box-title">Trustipilot</h4>
                             </div>
                             <div class="bottom">
                                 <div class="avatar">
-                                    <img src="assets/img/hero/heror-1-avator-group.png" alt="img">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/hero/heror-1-avator-group.png" alt="img">
                                 </div>
                                 <div class="content">
                                     <div class="th-social">
@@ -1151,12 +1151,12 @@ Testimonial Area
                         <div class="divider"></div>
                         <div class="testi-bottom-item">
                             <div class="trust-content">
-                                <div class="icon"><img src="assets/img/icon/google-icon.svg" alt="img"></div>
+                                <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/google-icon.svg" alt="img"></div>
                                 <h4 class="box-title">Google</h4>
                             </div>
                             <div class="bottom">
                                 <div class="avatar">
-                                    <img src="assets/img/hero/heror-1-avator-group-2.png" alt="img">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/hero/heror-1-avator-group-2.png" alt="img">
                                 </div>
                                 <div class="content">
                                     <div class="th-social">
@@ -1175,21 +1175,21 @@ Testimonial Area
             </div>
         </div>
     </section><!--==============================
-Download Area  3 
+Download Area  3
 ==============================-->
     <div class="download-sec-3 space-top">
-        <div class="download-3-bg-inner" data-bg-src="assets/img/bg/download-bg-3.jpg">
+        <div class="download-3-bg-inner" data-bg-src="https://html.themehour.net/piller/demo/assets/img/bg/download-bg-3.jpg">
             <div class="container">
                 <div class="row gy-4 align-items-center">
                     <div class="col-lg-5 col-xl-5 col-xxl-6">
                         <div class="download-3-left">
                             <div class="map-icon-box">
                                 <a href="property.html">
-                                    <img src="assets/img/download/download-3-map.png" alt="img">
+                                    <img src="https://html.themehour.net/piller/demo/assets/img/download/download-3-map.png" alt="img">
                                 </a>
                             </div>
                             <div class="content-box">
-                                <img src="assets/img/download/download-3-icon.png" alt="img">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/download/download-3-icon.png" alt="img">
                                 <h4 class="box-title">Find Fast Our Latest Properties</h4>
                             </div>
                         </div>
@@ -1234,41 +1234,41 @@ Download Area  3
             </div>
         </div>
     </div><!--==============================
-Marquee Area  
+Marquee Area
 ==============================-->
     <div class="marquee-section-3 overflow-hidden">
         <div class="shape-mockup movingX d-none d-xl-block" style="bottom: 36%; left: 6%;">
-            <img src="assets/img/shape/faq-2-right.png" alt="img">
+            <img src="https://html.themehour.net/piller/demo/assets/img/shape/faq-2-right.png" alt="img">
         </div>
         <div class="marquee-wrapper">
             <div class="marquee">
                 <div class="marquee-group">
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
                 </div>
                 <div class="marquee-group">
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
-                    <div class="text"><a href="service.html"> <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Pet-friendly Rental Houses</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Deluxe Cottage - Explore Now!</a></div>
+                    <div class="text"><a href="service.html"> <img src="https://html.themehour.net/piller/demo/assets/img/icon/marquee-icon-1-1.svg" alt="img">Luxury Home Available - Explore Now!</a></div>
                 </div>
             </div>
         </div>
@@ -1283,7 +1283,7 @@ Marquee Area
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="index.html"><img src="assets/img/logo-white.svg" alt="Piller-html"></a>
+                                    <a href="index.html"><img src="https://html.themehour.net/piller/demo/assets/img/logo-white.svg" alt="Piller-html"></a>
                                 </div>
                                 <p class="about-text">Pillar is a luxury to the resilience, adaptability, Spacious modern villa living room with centrally placed swimming pool blending indooroutdoor.</p>
 
@@ -1362,7 +1362,7 @@ Marquee Area
                             <div class="footer-right-bottom-wrap">
                                 <div class="footer-right-bottom-item">
                                     <div class="footer-right-bottom-item__thumb help">
-                                        <img src="assets/img/icon/footer-default-icon-1-1.png" alt="img">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/footer-default-icon-1-1.png" alt="img">
                                     </div>
                                     <div class="footer-right-bottom-item__content">
                                         <h4 class="box-title"><a href="contact.html">Need to Home buy or sell?</a></h4>
@@ -1370,26 +1370,26 @@ Marquee Area
                                 </div>
                                 <div class="footer-right-bottom-item scan">
                                     <div class="footer-right-bottom-item__thumb">
-                                        <img src="assets/img/icon/footer-default-icon-1-2.png" alt="img">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/footer-default-icon-1-2.png" alt="img">
                                     </div>
                                     <div class="footer-right-bottom-item__content">
                                         <p>Download on the</p>
                                         <h4 class="box-title"><a href="https://www.apple.com/app-store/">App Store</a></h4>
                                     </div>
                                     <div class="footer-right-bottom-item__right">
-                                        <img src="assets/img/icon/footer-default-icon-1-2-scan.png" alt="img">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/footer-default-icon-1-2-scan.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="footer-right-bottom-item scan">
                                     <div class="footer-right-bottom-item__thumb">
-                                        <img src="assets/img/icon/footer-default-icon-1-3.png" alt="img">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/footer-default-icon-1-3.png" alt="img">
                                     </div>
                                     <div class="footer-right-bottom-item__content">
                                         <p>GET IT ON</p>
                                         <h4 class="box-title"><a href="https://play.google.com/store/apps">Google Play</a></h4>
                                     </div>
                                     <div class="footer-right-bottom-item__right">
-                                        <img src="assets/img/icon/footer-default-icon-1-2-scan.png" alt="img">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/footer-default-icon-1-2-scan.png" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -1399,7 +1399,7 @@ Marquee Area
             </div>
         </div>
         <div class="copyright-wrap">
-            <div class="footer-bottom-top-shape animation-infinite" data-bg-src="assets/img/icon/footer-bottom-top-shape.png"></div>
+            <div class="footer-bottom-top-shape animation-infinite" data-bg-src="https://html.themehour.net/piller/demo/assets/img/icon/footer-bottom-top-shape.png"></div>
             <div class="container">
                 <div class="row gy-3 justify-content-lg-between justify-content-center align-items-center">
                     <div class="col-lg-7">
@@ -1422,7 +1422,7 @@ Marquee Area
     </footer>
 
     <!--********************************
-			Code End  Here 
+			Code End  Here
 	******************************** -->
 
     <!-- Scroll To Top -->
@@ -1436,36 +1436,36 @@ Marquee Area
     All Js File
 ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/vendor/jquery-3.7.1.min.js"></script>
     <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/swiper-bundle.min.js"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/bootstrap.min.js"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/jquery.counterup.min.js"></script>
     <!-- Tilt JS -->
-    <script src="assets/js/tilt.jquery.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/tilt.jquery.min.js"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/isotope.pkgd.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/jquery-ui.min.js"></script>
     <!-- Lenis -->
-    <script src="assets/js/lenis.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/lenis.min.js"></script>
 
     <!-- 360 degree Js start -->
-    <script src="assets/js/360.min.js"></script>
-    <script src="assets/js/panolens.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/360.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/panolens.min.js"></script>
     <!-- 360 degree Js end -->
 
     <!-- Wow Js -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/wow.min.js"></script>
     <!-- nice select -->
-    <script src="assets/js/nice-select.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/nice-select.min.js"></script>
 
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/main.js"></script>
 </body>
 
 </html>
