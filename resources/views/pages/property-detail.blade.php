@@ -522,7 +522,6 @@
     <section class="property-details space overflow-hidden">
         <div class="container">
             <div class="row gy-40 gx-50">
-
                 <div class="col-xxl-8 col-lg-7">
                     <div class="row gy-30">
                         <div class="slider-area property-slider1">
@@ -609,30 +608,31 @@
                                 </div>
                                 <div class="page-title-wrap fadeinup wow">
                                     <h2 class="page-title mb-2">About This Property</h2>
-                                    <h4 class="page-title">$5,805,00</h4>
+                                    <h4 class="page-title">${{ number_format($property->price) }}</h4>
                                 </div>
                                 <div class="page-features fadeinup wow">
                                     <div class="box-text">
-                                        <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                        <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/popular-location.svg" alt="icon"></div> {{ $property->address }}
                                     </div>
                                     <ul class="property-featured">
                                         <li>
                                             <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/bed.svg" alt="icon"></div>
-                                            Bed 4
+                                            Bed {{ $property->bedroom }}
                                         </li>
 
                                         <li>
                                             <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/bath.svg" alt="icon"></div>
-                                            Bath 2
+                                            Bath {{ $property->bathroom }}
                                         </li>
                                         <li>
                                             <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/sqft.svg" alt="icon"></div>
-                                            1500 sqft
+                                            {{ $property->area }} sqft
                                         </li>
                                     </ul>
                                 </div>
-                                <p class="mb-30 fadeinup wow">This meticulously remodeled "Savant Smart Home" is a true gem. Featuring four bedrooms and three bathrooms, including a master with a jacuzzi tub, walk-in shower, and steam room, it combines style with cutting-edge technology. The open living and dining areas lead to a chef's kitchen equipped with Thermador appliances, including a gas range/oven. A custom bar with sleek cabinetry, a dual Kegerator nitro brew system, and a 128-bottle, 3-zone wine fridge add to the home's allure. High-end lighting and automation bring sophistication and comfort throughout. Outdoors, enjoy a heated saltwater pool with spa, a cabana bath, and an outdoor kitchen/bar pergola. The fully-fenced front yard also features a putting green.</p>
-                                <p class="mb-40 fadeinup wow"> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+                                <p class="mb-40 fadeinup wow">
+                                    {{ $property->description }}
+                                </p>
 
                                 <div class="hightlighes-title-wrap mb-25 fadeinup wow">
                                     <h2 class="page-title mb-2">Property Hightlights</h2>
@@ -646,7 +646,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">ID NO.</h4>
-                                            <p class="property-grid-list-text">#1234</p>
+                                            <p class="property-grid-list-text">#{{ $property->id }}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -655,7 +655,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">Type</h4>
-                                            <p class="property-grid-list-text">Residencial</p>
+                                            <p class="property-grid-list-text">{{ $property->type }}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -664,7 +664,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">Room</h4>
-                                            <p class="property-grid-list-text">6</p>
+                                            <p class="property-grid-list-text">{{ $property->room }}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -673,7 +673,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">Bedroom</h4>
-                                            <p class="property-grid-list-text">4</p>
+                                            <p class="property-grid-list-text">{{ $property->bedroom }}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -682,7 +682,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">Bath</h4>
-                                            <p class="property-grid-list-text">2</p>
+                                            <p class="property-grid-list-text">{{ $property->bathroom }}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -691,7 +691,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">Big Yard</h4>
-                                            <p class="property-grid-list-text">1</p>
+                                            <p class="property-grid-list-text">{{ $property->big_yard }}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -700,7 +700,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">Purpose</h4>
-                                            <p class="property-grid-list-text">For Rent</p>
+                                            <p class="property-grid-list-text">{{ $property->purpose }}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -709,7 +709,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">Sqft</h4>
-                                            <p class="property-grid-list-text">4000</p>
+                                            <p class="property-grid-list-text">{{ $property->area }}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -718,7 +718,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">Parking</h4>
-                                            <p class="property-grid-list-text">Yes</p>
+                                            <p class="property-grid-list-text">{{ $property->parking ? 'Yes' : 'No' }}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -727,7 +727,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">Elevator</h4>
-                                            <p class="property-grid-list-text">Yes</p>
+                                            <p class="property-grid-list-text">{{ $property->elevator ? 'Yes' : 'No' }}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -736,7 +736,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">Wifi</h4>
-                                            <p class="property-grid-list-text">Yes</p>
+                                            <p class="property-grid-list-text">{{ $property->wifi ? 'Yes' : 'No' }}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -745,7 +745,7 @@
                                         </div>
                                         <div class="property-grid-list-details">
                                             <h4 class="property-grid-list-title">Built in</h4>
-                                            <p class="property-grid-list-text">1985</p>
+                                            <p class="property-grid-list-text">{{ $property->builed_year }}</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -817,36 +817,9 @@
                                 <div class="fea-anim-checklist fadeinup wow">
                                     <div class="checklist style2 list-six-column">
                                         <ul>
-                                            <li>Airconditioning</li>
-                                            <li>Barbeque</li>
-                                            <li>24x7 Seccurity</li>
-                                            <li>Jaguzzi</li>
-                                            <li>Gym</li>
-                                            <li>Home Theater</li>
-                                            <li>Balcony</li>
-                                            <li>Recreation</li>
-                                            <li>Indoor Game</li>
-                                            <li>Modern Kitchen</li>
-                                            <li>Walk-in Closet</li>
-                                            <li>Wine Cellar</li>
-                                            <li>Garage</li>
-                                            <li>Microwave</li>
-                                            <li>Pool</li>
-                                            <li>Refrigerator</li>
-                                            <li>Yard</li>
-                                            <li>Skylight</li>
-                                            <li>Landscaping</li>
-                                            <li>Basketball</li>
-                                            <li>Tanis Courts</li>
-                                            <li>Window Covert</li>
-                                            <li>Smart Home Te</li>
-                                            <li>Sauna</li>
-                                            <li>Outdoor Kitchen</li>
-                                            <li>Fireplace</li>
-                                            <li>Indoor</li>
-                                            <li>Washer</li>
-                                            <li>Security</li>
-                                            <li>Patio</li>
+                                            @foreach($property->amenities as $amenity)
+                                            <li>{{ $amenity->name }}</li>
+                                            @endforeach
                                         </ul>
                                     </div>
                                 </div>
@@ -934,9 +907,9 @@
                                         </div>
                                         <div class="media-body">
                                             <h4 class="title">Address:</h4>
-                                            <p class="text">Brooklyn, New York 11233, United States</p>
+                                            <p class="text">{{ $property->address }}</p>
                                             <h4 class="title">Post Code:</h4>
-                                            <p class="text">12345</p>
+                                            <p class="text">{{ $property->post_code }}</p>
                                         </div>
                                     </div>
                                 </div>
