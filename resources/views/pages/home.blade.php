@@ -708,7 +708,7 @@
                         </div>
                         <div class="property-content">
                             <div class="media-body">
-                                <h3 class="box-title"> <a href="{{ route('properties.show', ['slug' => $property->slug]) }}">{{ $property->name }}</a></h3>
+                                <h3 class="box-title"> <a href="{{ route('properties.show', ['property' => $property->slug]) }}">{{ $property->name }}</a></h3>
                                 <div class="box-text">
                                     <div class="icon"><img src="assets/img/icon/popular-location.svg" alt="icon"></div> {{ $property->address }}, {{ $property->city }}
                                 </div>
@@ -731,7 +731,7 @@
                             </ul>
                             <div class="property-bottom">
                                 <h6 class="box-title">${{ $property->price }}</h6>
-                                <a class="th-btn sm style3 pill" href="{{ route('properties.show', ['slug' => $property->slug]) }}">View More </a>
+                                <a class="th-btn sm style3 pill" href="{{ route('properties.show', ['property' => $property->slug]) }}">View More </a>
                             </div>
                         </div>
                     </div>
