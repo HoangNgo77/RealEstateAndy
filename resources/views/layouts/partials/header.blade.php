@@ -51,7 +51,7 @@
                 <li>
                   <a href="{{ route('properties.index') }}">Property</a>
                 </li>
-                <li class="menu-item-has-children">
+                <li>
                   <a href="{{ route('agencies.index') }}">Agencies</a>
                 </li>
                 <li>
