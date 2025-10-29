@@ -499,21 +499,23 @@
                 </div>
             </div>
         </div>
-    </header><!--==============================
-    Breadcumb
-============================== -->
+    </header>
 
+    <!--==============================
+        Breadcumb
+    ============================== -->
     <div class="breadcumb-wrapper " data-bg-src="https://html.themehour.net/piller/demo/assets/img/blog/breadcrumb-bg.jpg">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Property Details</h1>
+                <h1 class="breadcumb-title">{{ $property->name }}</h1>
                 <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Property Details</li>
+                    <li><a href="{{ route('home') }}">Home</a></li>
+                    <li>{{ $property->name }}</li>
                 </ul>
             </div>
         </div>
     </div>
+
     <!--==============================
         Blog Area
     ==============================-->
@@ -1125,8 +1127,8 @@
     </section>
 
     <!--==============================
-	Footer Area
-==============================-->
+    	Footer Area
+    ==============================-->
     <footer class="footer-wrapper footer-default">
         <div class="widget-area">
             <div class="container">
