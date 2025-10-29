@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Piller-html - Real Estate Home HTML Template - Blog Details</title>
+    <title>Piller-html - Real Estate Home HTML Template - Agencies</title>
     <meta name="author" content="Piller">
     <meta name="description" content="Piller-html - Real Estate Home HTML Template">
     <meta name="keywords" content="Piller-html - Real Estate Home HTML Template">
@@ -504,182 +504,422 @@
     <div class="breadcumb-wrapper " data-bg-src="https://html.themehour.net/piller/demo/assets/img/blog/breadcrumb-bg.jpg">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Blog Details</h1>
+                <h1 class="breadcumb-title">Agencies</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="index.html">Home</a></li>
-                    <li>Blog Details</li>
+                    <li>Agencies</li>
                 </ul>
             </div>
         </div>
     </div>
     <!--==============================
-        Blog Area
-    ==============================-->
-    <section class="th-blog-wrapper blog-details space-top space-extra-bottom">
+Blog Area
+==============================-->
+    <section class="th-blog-wrapper space-top overflow-hidden space-extra-bottom">
         <div class="container">
-            <div class="row">
+            <div class="row gx-60">
                 <div class="col-xxl-8 col-lg-7">
-                    <div class="th-blog blog-single">
-                        <div class="blog-img">
-                            <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog-s-1-1.jpg" alt="Image">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <a href="blog.html"><i class="fa-light fa-user"></i> Michel Smith</a>
-                                <a href="blog.html"><i class="fa-regular fa-calendar"></i> 24/02/2025</a>
-                                <a href="blog.html"><i class="fa-regular fa-tag"></i> Business</a>
-                            </div>
-                            <h2 class="blog-title">Building gains into housing stocks and how to trade the sector</h2>
-                            <p>On the Questo mobile app, gamified tours in the cities of Belogradchik, Vidin, and Vratsa now take you on a trip to reveal pieces of design and development of solar modules of rich various solar-powered history that just need a little bit of unraveling to be appreciated fully.</p>
-
-                            <p class="mb-40"> At SGW, we’ve been involved in several exciting projects that have enabled us to apply insights you gained from diverse industries to the development of solar modules. Our team has successfully undertaken the design and development of various solar-powered products, ranging from small-scale, solar-powered electronics to larger infrastructure and industrial solutions. These projects have us plenty of interesting engineering challenges.</p>
-
-                            <span class="details-sub-title"><span class="double-line"></span> Work Process</span>
-                            <h2 class="blog-title mb-4">Procedure</h2>
-                            <p class="mb-40">Agents use high-quality listing photos, virtual tours, social media marketing, and professional staging to attract more buyers and sell homes faster.. To address this, we incorporate onboard batteries to provide supplementary power. However, the temperature can influence battery performance.</p>
-
-                            <div class="check-list mb-50">
-                                <ul>
-                                    <li>Diversity investigation for royal been.</li>
-                                    <li>Create a structure where participants will add their information.</li>
-                                    <li>Efforts without a focus.</li>
-                                    <li>Many contradicting opinions a vision document.</li>
-                                    <li>A deliverable for workshop participants.</li>
-                                    <li>Create a structure where participants will add their information.</li>
-                                </ul>
-                            </div>
-
-                            <p class="mb-50">As a result, it is sometimes necessary to develop temperature control provisions within the product design to ensure optimal battery performance. Additionally, during the engineering and manufactu- ring stages, we also consider serviceability and the ability to repair the product.</p>
-
-                            <blockquote>
-                                <p>Real estate agents play a critical role in solving various problems within the real estate community. Their expertise not only helps individual buyers and sellers but also positively impacts the overall housing market, local economy, and community development.</p>
-                                <cite>Michel Clarck</cite>
-                            </blockquote>
-
-                            <p class="mb-50">The digital landscape is constantly evolving, and On Consult is here to keep you up to date with the latest online marketing trends. Our expert team will guide you through the intricacies of SEO, social media, content marketing, and more. With our help, you can supercharge your online marketing skills and transform businesses.</p>
-
-                            <div class="row gx-30 mt-30 mb-34">
-                                <div class="col-md-6 mb-30">
-                                    <div>
-                                        <img class="w-100 rounded-10" src="https://html.themehour.net/piller/demo/assets/img/blog/blog_inner_1.jpg" alt="Image">
-                                    </div>
+                    <div class="row gy-30 justify-content-center">
+                        <div class="col-xl-6 col-lg-12 col-md-6 fadeinup wow">
+                            <div class="agencies-card">
+                                <div class="agencies-img">
+                                    <a href="agency-details.html">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/agencies/agencies_1_1.jpg" alt="Image">
+                                    </a>
                                 </div>
-                                <div class="col-md-6 mb-30">
-                                    <div>
-                                        <img class="w-100 rounded-10" src="https://html.themehour.net/piller/demo/assets/img/blog/blog_inner_2.jpg" alt="Image">
+                                <div class="agencies-content">
+                                    <div class="brand-icon">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/agencies-icon1-1.svg" alt="img">
                                     </div>
+                                    <h3 class="box-title"><a href="agency-details.html">Luxury Home</a></h3>
+                                    <div class="box-text">
+                                        <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    </div>
+                                    <ul class="agencies-list">
+                                        <li>
+                                            <p>Listing:</p>
+                                            <p>125</p>
+                                        </li>
+                                        <li>
+                                            <p>Hotline:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Phone:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Email:</p>
+                                            <p><a href="mailto:informail12@gmail.com">informail12@gmail.com</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Category:</p>
+                                            <p>Apartment</p>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </div>
-
-                            <p class="mb-30">On the Questo mobile app, gamified tours in the cities of Belogradchik, Vidin, and Vratsa now take you on a trip to reveal pieces of design and development of solar modules of rich various solar-powered history that just need a little bit of unraveling to be appreciated fully.</p>
-
-                            <p class="mb-50">At SGW, we’ve been involved in several exciting projects that have enabled us to apply insights you gained from diverse industries to the development of solar modules. Our team has successfully undertaken the design and development of various solar-powered products, ranging from small-scale, solar-powered electronics to larger infrastructure and industrial solutions. These projects have us plenty of interesting engineering challenges.</p>
-
-                            <div class="share-links clearfix ">
-                                <div class="row justify-content-between">
-                                    <div class="col-sm-auto">
-                                        <span class="share-links-title">Tags:</span>
-                                        <div class="tagcloud">
-                                            <a href="blog.html">luxury home</a>
-                                            <a href="blog.html">Strategey</a>
-                                            <a href="blog.html">Villa Home</a>
-                                            <a href="blog.html">Project</a>
-                                        </div>
+                                <div class="agencies-bottom">
+                                    <div class="th-social">
+                                        <a href="https://www.facebook.com/"><i class="fa-solid fa-envelope"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fa-solid fa-globe"></i></a>
+                                        <a href="https://www.linkedin.com/"><i class="fa-solid fa-phone-volume"></i></a>
                                     </div>
-                                    <div class="col-sm-auto text-xl-end">
-                                        <span class="share-links-title">Share this article:</span>
-                                        <div class="th-social">
-                                            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                                            <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                        </div><!-- End Social Share -->
-                                    </div><!-- Share Links Area end -->
+                                    <a href="agency-details.html" class="th-btn style3 radius"> Read More</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="th-comments-wrap ">
-                        <h2 class="blog-inner-title h4">Comments (3)</h2>
-                        <ul class="comment-list">
-                            <li class="th-comment-item">
-                                <div class="th-post-comment">
-                                    <div class="comment-avater">
-                                        <img src="https://html.themehour.net/piller/demo/assets/img/blog/comment-author-1.jpg" alt="Comment Author">
-                                    </div>
-                                    <div class="comment-content">
-                                        <h3 class="name">Adam Jhon</h3>
-                                        <span class="commented-on">25 Jun, 2025 08:56pm</span>
-                                        <p class="text">Through this blog, we aim to inspire readers and of the blog to embrace education as a lifelong journey and to advocate for quality education</p>
-                                        <div class="reply_and_edit">
-                                            <a href="blog-details.html" class="reply-btn"><i class="fa-solid fa-reply"></i> Reply</a>
-                                        </div>
-                                    </div>
+
+                        <div class="col-xl-6 col-lg-12 col-md-6 fadeinup wow">
+                            <div class="agencies-card">
+                                <div class="agencies-img">
+                                    <a href="agency-details.html">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/agencies/agencies_1_2.jpg" alt="Image">
+                                    </a>
                                 </div>
-                                <ul class="children">
-                                    <li class="th-comment-item">
-                                        <div class="th-post-comment">
-                                            <div class="comment-avater">
-                                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/comment-author-2.jpg" alt="Comment Author">
-                                            </div>
-                                            <div class="comment-content">
-                                                <h3 class="name">Jhon Abraham</h3>
-                                                <span class="commented-on">25 Jun, 2025 08:56pm</span>
-                                                <p class="text">Education News and Trends: and of the blog We provide updates on the latest blog and developments and trends in the education sector.</p>
-                                                <div class="reply_and_edit">
-                                                    <a href="blog-details.html" class="reply-btn"><i class="fa-solid fa-reply"></i> Reply</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="th-comment-item">
-                                <div class="th-post-comment">
-                                    <div class="comment-avater">
-                                        <img src="https://html.themehour.net/piller/demo/assets/img/blog/comment-author-3.jpg" alt="Comment Author">
+                                <div class="agencies-content">
+                                    <div class="brand-icon">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/agencies-icon1-2.svg" alt="img">
                                     </div>
-                                    <div class="comment-content">
-                                        <h3 class="name">Anadi Juila</h3>
-                                        <span class="commented-on">25 Jun, 2025 08:56pm</span>
-                                        <p class="text">We discuss strategies to and of the blog help students and other people public make informed decisions about their educational and career paths.</p>
-                                        <div class="reply_and_edit">
-                                            <a href="blog-details.html" class="reply-btn"><i class="fa-solid fa-reply"></i> Reply</a>
-                                        </div>
+                                    <h3 class="box-title"><a href="agency-details.html">Luxury Aparment</a></h3>
+                                    <div class="box-text">
+                                        <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
                                     </div>
+                                    <ul class="agencies-list">
+                                        <li>
+                                            <p>Listing:</p>
+                                            <p>125</p>
+                                        </li>
+                                        <li>
+                                            <p>Hotline:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Phone:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Email:</p>
+                                            <p><a href="mailto:informail12@gmail.com">informail12@gmail.com</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Category:</p>
+                                            <p>Apartment</p>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </li>
-                        </ul>
-                    </div> <!-- Comment end --> <!-- Comment Form -->
-                    <div class="th-comment-form blog-comment-wrap">
-                        <div class="form-title mb-25">
-                            <h3 class="blog-inner-title h4">Leave a Reply</h3>
-                            <p class="form-text">Your email address will not be published. Required fields are marked</p>
+                                <div class="agencies-bottom">
+                                    <div class="th-social">
+                                        <a href="https://www.facebook.com/"><i class="fa-solid fa-envelope"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fa-solid fa-globe"></i></a>
+                                        <a href="https://www.linkedin.com/"><i class="fa-solid fa-phone-volume"></i></a>
+                                    </div>
+                                    <a href="agency-details.html" class="th-btn style3 radius"> Read More</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6 form-group style-border">
-                                <i class="fa-regular fa-user"></i>
-                                <input id="name" name="name" type="text" placeholder="Your name*" class="form-control">
+
+                        <div class="col-xl-6 col-lg-12 col-md-6 fadeinup wow">
+                            <div class="agencies-card">
+                                <div class="agencies-img">
+                                    <a href="agency-details.html">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/agencies/agencies_1_3.jpg" alt="Image">
+                                    </a>
+                                </div>
+                                <div class="agencies-content">
+                                    <div class="brand-icon">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/agencies-icon1-3.svg" alt="img">
+                                    </div>
+                                    <h3 class="box-title"><a href="agency-details.html">Luxury Home</a></h3>
+                                    <div class="box-text">
+                                        <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    </div>
+                                    <ul class="agencies-list">
+                                        <li>
+                                            <p>Listing:</p>
+                                            <p>125</p>
+                                        </li>
+                                        <li>
+                                            <p>Hotline:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Phone:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Email:</p>
+                                            <p><a href="mailto:informail12@gmail.com">informail12@gmail.com</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Category:</p>
+                                            <p>Apartment</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="agencies-bottom">
+                                    <div class="th-social">
+                                        <a href="https://www.facebook.com/"><i class="fa-solid fa-envelope"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fa-solid fa-globe"></i></a>
+                                        <a href="https://www.linkedin.com/"><i class="fa-solid fa-phone-volume"></i></a>
+                                    </div>
+                                    <a href="agency-details.html" class="th-btn style3 radius"> Read More</a>
+                                </div>
                             </div>
-                            <div class="col-md-6 form-group style-border">
-                                <i class="fa-regular fa-envelope"></i>
-                                <input id="email" name="email" type="text" placeholder="Your email*" class="form-control">
+                        </div>
+
+                        <div class="col-xl-6 col-lg-12 col-md-6 fadeinup wow">
+                            <div class="agencies-card">
+                                <div class="agencies-img">
+                                    <a href="agency-details.html">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/agencies/agencies_1_4.jpg" alt="Image">
+                                    </a>
+                                </div>
+                                <div class="agencies-content">
+                                    <div class="brand-icon">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/agencies-icon1-4.svg" alt="img">
+                                    </div>
+                                    <h3 class="box-title"><a href="agency-details.html">Luxury Home</a></h3>
+                                    <div class="box-text">
+                                        <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    </div>
+                                    <ul class="agencies-list">
+                                        <li>
+                                            <p>Listing:</p>
+                                            <p>125</p>
+                                        </li>
+                                        <li>
+                                            <p>Hotline:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Phone:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Email:</p>
+                                            <p><a href="mailto:informail12@gmail.com">informail12@gmail.com</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Category:</p>
+                                            <p>Apartment</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="agencies-bottom">
+                                    <div class="th-social">
+                                        <a href="https://www.facebook.com/"><i class="fa-solid fa-envelope"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fa-solid fa-globe"></i></a>
+                                        <a href="https://www.linkedin.com/"><i class="fa-solid fa-phone-volume"></i></a>
+                                    </div>
+                                    <a href="agency-details.html" class="th-btn style3 radius"> Read More</a>
+                                </div>
                             </div>
-                            <div class="col-12 form-group style-border">
-                                <i class="fa-solid fa-globe"></i>
-                                <input id="website" name="name" type="text" placeholder="Website*" class="form-control">
+                        </div>
+
+                        <div class="col-xl-6 col-lg-12 col-md-6 fadeinup wow">
+                            <div class="agencies-card">
+                                <div class="agencies-img">
+                                    <a href="agency-details.html">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/agencies/agencies_1_5.jpg" alt="Image">
+                                    </a>
+                                </div>
+                                <div class="agencies-content">
+                                    <div class="brand-icon">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/agencies-icon1-5.svg" alt="img">
+                                    </div>
+                                    <h3 class="box-title"><a href="agency-details.html">Elegant Home</a></h3>
+                                    <div class="box-text">
+                                        <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    </div>
+                                    <ul class="agencies-list">
+                                        <li>
+                                            <p>Listing:</p>
+                                            <p>125</p>
+                                        </li>
+                                        <li>
+                                            <p>Hotline:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Phone:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Email:</p>
+                                            <p><a href="mailto:informail12@gmail.com">informail12@gmail.com</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Category:</p>
+                                            <p>Apartment</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="agencies-bottom">
+                                    <div class="th-social">
+                                        <a href="https://www.facebook.com/"><i class="fa-solid fa-envelope"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fa-solid fa-globe"></i></a>
+                                        <a href="https://www.linkedin.com/"><i class="fa-solid fa-phone-volume"></i></a>
+                                    </div>
+                                    <a href="agency-details.html" class="th-btn style3 radius"> Read More</a>
+                                </div>
                             </div>
-                            <div class="col-12 form-group style-border">
-                                <i class="fa-regular fa-pen"></i>
-                                <textarea placeholder="Comment*" class="form-control"></textarea>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-12 col-md-6 fadeinup wow">
+                            <div class="agencies-card">
+                                <div class="agencies-img">
+                                    <a href="agency-details.html">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/agencies/agencies_1_6.jpg" alt="Image">
+                                    </a>
+                                </div>
+                                <div class="agencies-content">
+                                    <div class="brand-icon">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/agencies-icon1-6.svg" alt="img">
+                                    </div>
+                                    <h3 class="box-title"><a href="agency-details.html">Building</a></h3>
+                                    <div class="box-text">
+                                        <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    </div>
+                                    <ul class="agencies-list">
+                                        <li>
+                                            <p>Listing:</p>
+                                            <p>125</p>
+                                        </li>
+                                        <li>
+                                            <p>Hotline:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Phone:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Email:</p>
+                                            <p><a href="mailto:informail12@gmail.com">informail12@gmail.com</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Category:</p>
+                                            <p>Apartment</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="agencies-bottom">
+                                    <div class="th-social">
+                                        <a href="https://www.facebook.com/"><i class="fa-solid fa-envelope"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fa-solid fa-globe"></i></a>
+                                        <a href="https://www.linkedin.com/"><i class="fa-solid fa-phone-volume"></i></a>
+                                    </div>
+                                    <a href="agency-details.html" class="th-btn style3 radius"> Read More</a>
+                                </div>
                             </div>
-                            <div class="col-12 form-group">
-                                <input id="reviewcheck" name="reviewcheck" type="checkbox">
-                                <label for="reviewcheck">Save my name, email, and website in this browser for the next time I comment.<span class="checkmark"></span></label>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-12 col-md-6 fadeinup wow">
+                            <div class="agencies-card">
+                                <div class="agencies-img">
+                                    <a href="agency-details.html">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/agencies/agencies_1_7.jpg" alt="Image">
+                                    </a>
+                                </div>
+                                <div class="agencies-content">
+                                    <div class="brand-icon">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/agencies-icon1-7.svg" alt="img">
+                                    </div>
+                                    <h3 class="box-title"><a href="agency-details.html">Cottage Home</a></h3>
+                                    <div class="box-text">
+                                        <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    </div>
+                                    <ul class="agencies-list">
+                                        <li>
+                                            <p>Listing:</p>
+                                            <p>125</p>
+                                        </li>
+                                        <li>
+                                            <p>Hotline:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Phone:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Email:</p>
+                                            <p><a href="mailto:informail12@gmail.com">informail12@gmail.com</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Category:</p>
+                                            <p>Apartment</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="agencies-bottom">
+                                    <div class="th-social">
+                                        <a href="https://www.facebook.com/"><i class="fa-solid fa-envelope"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fa-solid fa-globe"></i></a>
+                                        <a href="https://www.linkedin.com/"><i class="fa-solid fa-phone-volume"></i></a>
+                                    </div>
+                                    <a href="agency-details.html" class="th-btn style3 radius"> Read More</a>
+                                </div>
                             </div>
-                            <div class="col-12 form-group style-border mb-0">
-                                <button class="th-btn radius">Send Message</button>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-12 col-md-6 fadeinup wow">
+                            <div class="agencies-card">
+                                <div class="agencies-img">
+                                    <a href="agency-details.html">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/agencies/agencies_1_8.jpg" alt="Image">
+                                    </a>
+                                </div>
+                                <div class="agencies-content">
+                                    <div class="brand-icon">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/agencies-icon1-8.svg" alt="img">
+                                    </div>
+                                    <h3 class="box-title"><a href="agency-details.html">Luxury Villa</a></h3>
+                                    <div class="box-text">
+                                        <div class="icon"><img src="https://html.themehour.net/piller/demo/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    </div>
+                                    <ul class="agencies-list">
+                                        <li>
+                                            <p>Listing:</p>
+                                            <p>125</p>
+                                        </li>
+                                        <li>
+                                            <p>Hotline:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Phone:</p>
+                                            <p><a href="tel:+0023456789">+(00) 23456 789</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Email:</p>
+                                            <p><a href="mailto:informail12@gmail.com">informail12@gmail.com</a></p>
+                                        </li>
+                                        <li>
+                                            <p>Category:</p>
+                                            <p>Apartment</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="agencies-bottom">
+                                    <div class="th-social">
+                                        <a href="https://www.facebook.com/"><i class="fa-solid fa-envelope"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fa-solid fa-globe"></i></a>
+                                        <a href="https://www.linkedin.com/"><i class="fa-solid fa-phone-volume"></i></a>
+                                    </div>
+                                    <a href="agency-details.html" class="th-btn style3 radius"> Read More</a>
+                                </div>
                             </div>
+                        </div>
+
+                        <div class="th-pagination pt-2 mt-5">
+                            <ul>
+                                <li><a href="agency-details.html"><i class="far fa-arrow-left"></i></a></li>
+                                <li><a href="agency-details.html">1</a></li>
+                                <li><a href="agency-details.html">2</a></li>
+                                <li><a href="agency-details.html">3</a></li>
+                                <li><a class="next-page" href="agency-details.html">Next <i class="far fa-arrow-right"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

@@ -62,7 +62,7 @@
 
 
     <!--********************************
-   		Code Start From Here 
+   		Code Start From Here
 	******************************** -->
 
     <!--==============================
@@ -115,7 +115,7 @@
                     <ul class="woocommerce-mini-cart cart_list product_list_widget ">
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_1.png" alt="Cart Image">Bosco Apple Fruit</a>
+                            <a href="#"><img src="https://html.themehour.net/piller/demo/assets/img/product/product_1_1.png" alt="Cart Image">Bosco Apple Fruit</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
@@ -123,7 +123,7 @@
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_2.png" alt="Cart Image">Green Cauliflower</a>
+                            <a href="#"><img src="https://html.themehour.net/piller/demo/assets/img/product/product_1_2.png" alt="Cart Image">Green Cauliflower</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
@@ -131,7 +131,7 @@
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_3.png" alt="Cart Image">Mandarin orange</a>
+                            <a href="#"><img src="https://html.themehour.net/piller/demo/assets/img/product/product_1_3.png" alt="Cart Image">Mandarin orange</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
@@ -139,7 +139,7 @@
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_4.png" alt="Cart Image">Shallot Red onion</a>
+                            <a href="#"><img src="https://html.themehour.net/piller/demo/assets/img/product/product_1_4.png" alt="Cart Image">Shallot Red onion</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
@@ -147,7 +147,7 @@
                         </li>
                         <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_1_5.png" alt="Cart Image">Sour Red Cherry</a>
+                            <a href="#"><img src="https://html.themehour.net/piller/demo/assets/img/product/product_1_5.png" alt="Cart Image">Sour Red Cherry</a>
                             <span class="quantity">1 ×
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
@@ -175,7 +175,7 @@
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="index.html"><img src="assets/img/logo.svg" alt="Piller-html"></a>
+                        <a href="index.html"><img src="https://html.themehour.net/piller/demo/assets/img/logo.svg" alt="Piller-html"></a>
                     </div>
                     <p class="about-text mb-4">Pillar is a luxury to the resilience, adaptability, Spacious modern villa living room with centrally placed swimming pool blending indooroutdoor.</p>
 
@@ -198,7 +198,7 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/featured-listing-sidebar-1-1.jpg" alt="Image"></a>
+                            <a href="blog-details.html"><img src="https://html.themehour.net/piller/demo/assets/img/blog/featured-listing-sidebar-1-1.jpg" alt="Image"></a>
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta">
@@ -209,7 +209,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/featured-listing-sidebar-1-3.jpg" alt="Image"></a>
+                            <a href="blog-details.html"><img src="https://html.themehour.net/piller/demo/assets/img/blog/featured-listing-sidebar-1-3.jpg" alt="Image"></a>
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta">
@@ -220,7 +220,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/featured-listing-sidebar-1-3.jpg" alt="Image"></a>
+                            <a href="blog-details.html"><img src="https://html.themehour.net/piller/demo/assets/img/blog/featured-listing-sidebar-1-3.jpg" alt="Image"></a>
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta">
@@ -254,7 +254,7 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Piller-html"></a>
+                <a href="index.html"><img src="https://html.themehour.net/piller/demo/assets/img/logo.svg" alt="Piller-html"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
@@ -353,7 +353,7 @@
                                 <li class="lang-wrapper">
                                     <div class="lang-menu">
                                         <div class="icon">
-                                            <img src="assets/img/icon/english.png" alt="icon">
+                                            <img src="https://html.themehour.net/piller/demo/assets/img/icon/english.png" alt="icon">
                                         </div>
                                         <select class="form-select nice-select">
                                             <option selected="">English</option>
@@ -375,7 +375,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/img/logo.svg" alt="Piller-html"></a>
+                                <a href="index.html"><img src="https://html.themehour.net/piller/demo/assets/img/logo.svg" alt="Piller-html"></a>
                             </div>
                         </div>
                         <div class="col-auto">
@@ -390,7 +390,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/index.jpg" alt="Home One">
+                                                                    <img src="https://html.themehour.net/piller/demo/assets/img/pages/index.jpg" alt="Home One">
                                                                     <div class="btn-wrap">
                                                                         <a href="index.html" class="th-btn radius">View Demo</a>
                                                                     </div>
@@ -401,7 +401,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-2.jpg" alt="Home Two">
+                                                                    <img src="https://html.themehour.net/piller/demo/assets/img/pages/home-2.jpg" alt="Home Two">
                                                                     <div class="btn-wrap">
                                                                         <a href="home-2.html" class="th-btn radius">View Demo</a>
                                                                     </div>
@@ -412,7 +412,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-3.jpg" alt="Home Three">
+                                                                    <img src="https://html.themehour.net/piller/demo/assets/img/pages/home-3.jpg" alt="Home Three">
                                                                     <div class="btn-wrap">
                                                                         <a href="home-3.html" class="th-btn radius">View Demo</a>
                                                                     </div>
@@ -501,7 +501,7 @@
     Breadcumb
 ============================== -->
 
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/blog/breadcrumb-bg.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="https://html.themehour.net/piller/demo/assets/img/blog/breadcrumb-bg.jpg">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Blog Grid</h1>
@@ -522,7 +522,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_1.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_1.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">22 Feb</a>
@@ -544,7 +544,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_2.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_2.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">23 Feb</a>
@@ -566,7 +566,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_3.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_3.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">24 Feb</a>
@@ -588,7 +588,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_4.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_4.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">26 Feb</a>
@@ -610,7 +610,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_5.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_5.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">27 Feb</a>
@@ -632,7 +632,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_6.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_6.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">16 Mar</a>
@@ -654,7 +654,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_7.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_7.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">19 Feb</a>
@@ -676,7 +676,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_8.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_8.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">20 Feb</a>
@@ -698,7 +698,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_9.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_9.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">11 Feb</a>
@@ -720,7 +720,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_10.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_10.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">21 Feb</a>
@@ -742,7 +742,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_11.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_11.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">13 Feb</a>
@@ -764,7 +764,7 @@ Blog Area
                     <div class="blog-card">
                         <div class="blog-img">
                             <a href="blog-details.html">
-                                <img src="assets/img/blog/blog_1_12.jpg" alt="Image">
+                                <img src="https://html.themehour.net/piller/demo/assets/img/blog/blog_1_12.jpg" alt="Image">
                             </a>
                             <div class="date">
                                 <a href="blog.html">15 Feb</a>
@@ -796,7 +796,7 @@ Blog Area
     </section>
 
     <!--==============================
-Blog Area  
+Blog Area
 ==============================-->
     <!--==============================
 	Footer Area
@@ -809,7 +809,7 @@ Blog Area
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="index.html"><img src="assets/img/logo-white.svg" alt="Piller-html"></a>
+                                    <a href="index.html"><img src="https://html.themehour.net/piller/demo/assets/img/logo-white.svg" alt="Piller-html"></a>
                                 </div>
                                 <p class="about-text">Pillar is a luxury to the resilience, adaptability, Spacious modern villa living room with centrally placed swimming pool blending indooroutdoor.</p>
 
@@ -888,7 +888,7 @@ Blog Area
                             <div class="footer-right-bottom-wrap">
                                 <div class="footer-right-bottom-item">
                                     <div class="footer-right-bottom-item__thumb help">
-                                        <img src="assets/img/icon/footer-default-icon-1-1.png" alt="img">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/footer-default-icon-1-1.png" alt="img">
                                     </div>
                                     <div class="footer-right-bottom-item__content">
                                         <h4 class="box-title"><a href="contact.html">Need to Home buy or sell?</a></h4>
@@ -896,26 +896,26 @@ Blog Area
                                 </div>
                                 <div class="footer-right-bottom-item scan">
                                     <div class="footer-right-bottom-item__thumb">
-                                        <img src="assets/img/icon/footer-default-icon-1-2.png" alt="img">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/footer-default-icon-1-2.png" alt="img">
                                     </div>
                                     <div class="footer-right-bottom-item__content">
                                         <p>Download on the</p>
                                         <h4 class="box-title"><a href="https://www.apple.com/app-store/">App Store</a></h4>
                                     </div>
                                     <div class="footer-right-bottom-item__right">
-                                        <img src="assets/img/icon/footer-default-icon-1-2-scan.png" alt="img">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/footer-default-icon-1-2-scan.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="footer-right-bottom-item scan">
                                     <div class="footer-right-bottom-item__thumb">
-                                        <img src="assets/img/icon/footer-default-icon-1-3.png" alt="img">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/footer-default-icon-1-3.png" alt="img">
                                     </div>
                                     <div class="footer-right-bottom-item__content">
                                         <p>GET IT ON</p>
                                         <h4 class="box-title"><a href="https://play.google.com/store/apps">Google Play</a></h4>
                                     </div>
                                     <div class="footer-right-bottom-item__right">
-                                        <img src="assets/img/icon/footer-default-icon-1-2-scan.png" alt="img">
+                                        <img src="https://html.themehour.net/piller/demo/assets/img/icon/footer-default-icon-1-2-scan.png" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -925,7 +925,7 @@ Blog Area
             </div>
         </div>
         <div class="copyright-wrap">
-            <div class="footer-bottom-top-shape animation-infinite" data-bg-src="assets/img/icon/footer-bottom-top-shape.png"></div>
+            <div class="footer-bottom-top-shape animation-infinite" data-bg-src="https://html.themehour.net/piller/demo/assets/img/icon/footer-bottom-top-shape.png"></div>
             <div class="container">
                 <div class="row gy-3 justify-content-lg-between justify-content-center align-items-center">
                     <div class="col-lg-7">
@@ -948,7 +948,7 @@ Blog Area
     </footer>
 
     <!--********************************
-			Code End  Here 
+			Code End  Here
 	******************************** -->
 
     <!-- Scroll To Top -->
@@ -962,36 +962,36 @@ Blog Area
     All Js File
 ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/vendor/jquery-3.7.1.min.js"></script>
     <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/swiper-bundle.min.js"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/bootstrap.min.js"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/jquery.counterup.min.js"></script>
     <!-- Tilt JS -->
-    <script src="assets/js/tilt.jquery.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/tilt.jquery.min.js"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/isotope.pkgd.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/jquery-ui.min.js"></script>
     <!-- Lenis -->
-    <script src="assets/js/lenis.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/lenis.min.js"></script>
 
     <!-- 360 degree Js start -->
-    <script src="assets/js/360.min.js"></script>
-    <script src="assets/js/panolens.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/360.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/panolens.min.js"></script>
     <!-- 360 degree Js end -->
 
     <!-- Wow Js -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/wow.min.js"></script>
     <!-- nice select -->
-    <script src="assets/js/nice-select.min.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/nice-select.min.js"></script>
 
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="https://html.themehour.net/piller/demo/assets/js/main.js"></script>
 </body>
 
 </html>

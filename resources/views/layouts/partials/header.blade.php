@@ -52,11 +52,7 @@
                   <a href="{{ route('properties.index') }}">Property</a>
                 </li>
                 <li class="menu-item-has-children">
-                  <a href="#">Agencies</a>
-                  <ul class="sub-menu">
-                    <li><a href="agency.html">Agencies </a></li>
-                    <li><a href="agency-details.html">Agency Details</a></li>
-                  </ul>
+                  <a href="{{ route('agencies.index') }}">Agencies</a>
                 </li>
                 <li>
                   <a href="{{ route('blog.index') }}">Blog</a>

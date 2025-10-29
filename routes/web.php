@@ -22,3 +22,4 @@ Route::view('about', 'pages.about')->name('about');
 Route::view('blog', 'pages.blog')->name('blog.index');
 Route::view('blog-detail', 'pages.blog-detail')->name('blog.show');
 Route::view('contact', 'pages.contact')->name('contact');
+Route::view('agencies', 'pages.agencies')->name('agencies.index');
