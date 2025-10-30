@@ -17,7 +17,10 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
 
-        $this->call(PropertySeeder::class);
-        $this->call(PostSeeder::class);
+        $this->call([
+            AmenitySeeder::class,
+            PropertySeeder::class,
+            PostSeeder::class,
+        ]);
     }
 }

@@ -2,8 +2,9 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Seeder;
+use App\Models\Amenity;
 use App\Models\Property;
+use Illuminate\Database\Seeder;
 
 class PropertySeeder extends Seeder
 {
@@ -20,9 +21,18 @@ class PropertySeeder extends Seeder
             'https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg',
         ];
 
+        // Get all amenity IDs
+        $amenityIds = Amenity::pluck('id');
+
         foreach ($properties as $property) {
+            // Add featured image
             $property->addMediaFromUrl($imageUrls[array_rand($imageUrls)])
                 ->toMediaCollection('featured_image');
+                
+            // Attach 3-8 random amenities to each property
+            $property->amenities()->attach(
+                $amenityIds->random(rand(3, min(8, $amenityIds->count())))
+            );
         }
     }
 }
