@@ -44,7 +44,12 @@ class Property extends Model implements HasMedia
      */
     public function registerMediaCollections(): void
     {
-        $this->addMediaCollection('images');
+        $this->addMediaCollection('featured_image');
+    }
+
+    public function getFeaturedImageUrlAttribute()
+    {
+        return $this->getFirstMediaUrl('featured_image');
     }
 
     /**
