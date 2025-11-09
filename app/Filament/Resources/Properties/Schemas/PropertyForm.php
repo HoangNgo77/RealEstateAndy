@@ -7,6 +7,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 
 class PropertyForm
@@ -28,13 +29,24 @@ class PropertyForm
 
                 Section::make('Property Details')
                     ->components([
-                        TextInput::make('type'),
-                        TextInput::make('bedrooms')
+                        Select::make('type')
+                            ->options([
+                                'house' => 'House',
+                                'apartment' => 'Apartment',
+                                'condo' => 'Condo',
+                                'land' => 'Land',
+                                'commercial' => 'Commercial',
+                            ]),
+                        TextInput::make('bedroom')
                             ->numeric(),
-                        TextInput::make('bathrooms')
+                        TextInput::make('bathroom')
                             ->numeric(),
                         TextInput::make('area'),
-                        TextInput::make('purpose'),
+                        Select::make('purpose')
+                            ->options([
+                                'sale' => 'Sale',
+                                'rent' => 'Rent',
+                            ]),
                         TextInput::make('room')
                             ->numeric(),
                         TextInput::make('bigyard'),
@@ -49,9 +61,8 @@ class PropertyForm
                 
                 Section::make('Gallery')
                     ->components([
-                        SpatieMediaLibraryFileUpload::make('images')
-                            ->collection('images')
-                            ->multiple()
+                        SpatieMediaLibraryFileUpload::make('featured_image')
+                            ->collection('featured_image')
                             ->image()
                     ])
             ])
