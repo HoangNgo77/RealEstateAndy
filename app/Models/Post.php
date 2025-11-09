@@ -10,9 +10,9 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 
 class Post extends Model implements HasMedia
 {
-    use SoftDeletes;
     use HasFactory;
     use InteractsWithMedia;
+    use SoftDeletes;
 
     protected $fillable = [
         'title',
@@ -26,7 +26,7 @@ class Post extends Model implements HasMedia
     public function registerMediaCollections(): void
     {
         $this->addMediaCollection('featured_image')
-             ->singleFile();
+            ->singleFile();
     }
 
     public function getFeaturedImageUrlAttribute()
@@ -49,6 +49,6 @@ class Post extends Model implements HasMedia
     public function scopePublished($query)
     {
         return $query->where('is_published', true)
-                   ->where('published_at', '<=', now());
+            ->where('published_at', '<=', now());
     }
 }

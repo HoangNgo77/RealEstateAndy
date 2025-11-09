@@ -17,13 +17,13 @@ class PostFactory extends Factory
     public function definition(): array
     {
         $title = $this->faker->sentence(6);
-        
+
         return [
             'title' => $title,
             'slug' => \Illuminate\Support\Str::slug($title),
             'excerpt' => $this->faker->paragraph(2),
             'content' => collect($this->faker->paragraphs(rand(3, 6)))
-                ->map(fn($paragraph) => "<p>{$paragraph}</p>")
+                ->map(fn ($paragraph) => "<p>{$paragraph}</p>")
                 ->implode(''),
             'is_published' => $this->faker->boolean(80), // 80% chance of being published
             'published_at' => $this->faker->dateTimeBetween('-1 year', '+1 month'),

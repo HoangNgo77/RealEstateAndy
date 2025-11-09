@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
-use Illuminate\Http\Request;
 
 class BlogController extends Controller
 {
@@ -16,7 +15,7 @@ class BlogController extends Controller
             ->where('published_at', '<=', now())
             ->where('is_published', true)
             ->paginate(10);
-            
+
         return view('pages.blog', compact('posts'));
     }
 
@@ -25,16 +24,16 @@ class BlogController extends Controller
      */
     public function show(Post $post)
     {
-        if (!$post->is_published || $post->published_at > now()) {
+        if (! $post->is_published || $post->published_at > now()) {
             abort(404);
         }
-        
+
         $recentPosts = Post::where('is_published', true)
             ->where('id', '!=', $post->id)
             ->latest('published_at')
             ->take(3)
             ->get();
-            
+
         return view('pages.blog-detail', compact('post', 'recentPosts'));
     }
 }

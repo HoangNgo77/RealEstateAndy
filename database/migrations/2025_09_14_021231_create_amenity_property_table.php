@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string('value')->nullable();
 
             $table->primary([
-                (new Amenity())->getForeignKey(),
-                (new Property())->getForeignKey(),
+                (new Amenity)->getForeignKey(),
+                (new Property)->getForeignKey(),
             ]);
         });
     }

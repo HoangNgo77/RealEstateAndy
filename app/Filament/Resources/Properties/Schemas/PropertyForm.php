@@ -3,12 +3,12 @@
 namespace App\Filament\Resources\Properties\Schemas;
 
 use Filament\Forms\Components\DateTimePicker;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\Textarea;
-use Filament\Schemas\Components\Section;
-use Filament\Schemas\Schema;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Schema;
 
 class PropertyForm
 {
@@ -56,15 +56,20 @@ class PropertyForm
                             ->numeric(),
                         TextInput::make('parking')
                             ->numeric(),
+                        Select::make('amenities')
+                            ->multiple()
+                            ->relationship(name: 'amenities', titleAttribute: 'name')
+                            ->searchable()
+                            ->preload(),
                     ])
                     ->columns(3),
-                
+
                 Section::make('Gallery')
                     ->components([
                         SpatieMediaLibraryFileUpload::make('featured_image')
                             ->collection('featured_image')
-                            ->image()
-                    ])
+                            ->image(),
+                    ]),
             ])
             ->columns(1);
     }

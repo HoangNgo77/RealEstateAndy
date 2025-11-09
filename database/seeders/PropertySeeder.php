@@ -28,7 +28,7 @@ class PropertySeeder extends Seeder
             // Add featured image
             $property->addMediaFromUrl($imageUrls[array_rand($imageUrls)])
                 ->toMediaCollection('featured_image');
-                
+
             // Attach 3-8 random amenities to each property
             $property->amenities()->attach(
                 $amenityIds->random(rand(3, min(8, $amenityIds->count())))

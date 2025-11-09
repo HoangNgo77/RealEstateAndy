@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class PostSeeder extends Seeder
@@ -27,7 +26,7 @@ class PostSeeder extends Seeder
                 $post->addMediaFromUrl($imageUrls[array_rand($imageUrls)])
                     ->toMediaCollection('featured_image');
             } catch (\Exception $e) {
-                \Illuminate\Support\Facades\Log::error("Failed to add featured image to post {$post->id}: " . $e->getMessage());
+                \Illuminate\Support\Facades\Log::error("Failed to add featured image to post {$post->id}: ".$e->getMessage());
             }
         }
     }
