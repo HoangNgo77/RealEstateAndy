@@ -13,7 +13,7 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
  * Property Routes
  */
 Route::get('properties', [PropertyController::class, 'index'])->name('properties.index');
-Route::get('properties/{property}', [PropertyController::class, 'show'])->name('properties.show');
+Route::get('properties/{property:slug}', [PropertyController::class, 'show'])->name('properties.show');
 
 /**
  * Blog Routes
