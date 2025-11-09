@@ -21,7 +21,7 @@ class AmenityResource extends Resource
 {
     protected static ?string $model = Amenity::class;
 
-    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-user-group';
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-sparkles';
 
     protected static string | UnitEnum | null $navigationGroup = 'Real Estate';
 

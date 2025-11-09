@@ -19,7 +19,7 @@ class PropertyResource extends Resource
 {
     protected static ?string $model = Property::class;
 
-    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-user-group';
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-building-office-2';
 
     protected static string | UnitEnum | null $navigationGroup = 'Real Estate';
 
