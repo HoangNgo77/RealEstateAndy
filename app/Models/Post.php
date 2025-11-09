@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -21,6 +22,7 @@ class Post extends Model implements HasMedia
         'excerpt',
         'is_published',
         'published_at',
+        'user_id',
     ];
 
     public function registerMediaCollections(): void
@@ -50,5 +52,10 @@ class Post extends Model implements HasMedia
     {
         return $query->where('is_published', true)
             ->where('published_at', '<=', now());
+    }
+
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
     }
 }

@@ -34,8 +34,7 @@ class Property extends Model implements HasMedia
         'elevator',
         'wifi',
         'builded_year',
-        'created_by',
-        'updated_by',
+        'user_id',
         'published_at',
     ];
 
@@ -62,14 +61,9 @@ class Property extends Model implements HasMedia
             ->saveSlugsTo('slug');
     }
 
-    public function createdBy(): BelongsTo
+    public function user(): BelongsTo
     {
-        return $this->belongsTo(User::class, 'created_by', 'id');
-    }
-
-    public function updatedBy(): BelongsTo
-    {
-        return $this->belongsTo(User::class, 'updated_by', 'id');
+        return $this->belongsTo(User::class);
     }
 
     public function amenities()

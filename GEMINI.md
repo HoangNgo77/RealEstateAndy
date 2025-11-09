@@ -70,15 +70,4 @@ The application follows a standard Laravel MVC (Model-View-Controller) architect
 
 ## Testing
 
-*   The project uses Pest for testing.
-*   Run the test suite with the following command:
-    ```bash
-    composer run test
-    ```
-
-## Code Style
-
-*   The project uses Laravel Pint for code styling. To format your code, you can run:
-    ```bash
-    ./vendor/bin/pint
-    ```
+*   No need to run tests during development as there are currently no tests implemented.
