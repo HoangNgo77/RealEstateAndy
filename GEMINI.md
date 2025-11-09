@@ -68,6 +68,10 @@ The application follows a standard Laravel MVC (Model-View-Controller) architect
 
 # Development Conventions
 
+## Working with Filament
+
+Always check the Filament documentation for best practices when adding or modifying resources in the admin panel in folder `docs/filament/`.
+
 ## Testing
 
 *   No need to run tests during development as there are currently no tests implemented.
