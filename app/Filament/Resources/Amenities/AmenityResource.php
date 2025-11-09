@@ -15,12 +15,15 @@ use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use UnitEnum;
 
 class AmenityResource extends Resource
 {
     protected static ?string $model = Amenity::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-user-group';
+
+    protected static string | UnitEnum | null $navigationGroup = 'Real Estate';
 
     protected static ?string $recordTitleAttribute = 'Amenity';
 
