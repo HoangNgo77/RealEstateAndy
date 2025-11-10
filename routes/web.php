@@ -26,4 +26,5 @@ Route::get('blog/{post:slug}', [\App\Http\Controllers\BlogController::class, 'sh
  */
 Route::view('about', 'pages.about')->name('about');
 Route::view('contact', 'pages.contact')->name('contact');
+Route::post('contact', [\App\Http\Controllers\ContactController::class, 'store'])->name('contact.store');
 Route::view('agencies', 'pages.agencies')->name('agencies.index');

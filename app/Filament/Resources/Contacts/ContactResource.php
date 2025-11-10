@@ -8,20 +8,19 @@ use App\Filament\Resources\Contacts\Pages\ListContacts;
 use App\Filament\Resources\Contacts\Schemas\ContactForm;
 use App\Filament\Resources\Contacts\Tables\ContactsTable;
 use App\Models\Contact;
+use BackedEnum;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
-use BackedEnum;
-use UnitEnum;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class ContactResource extends Resource
 {
     protected static ?string $model = Contact::class;
 
-    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-user-group';
-
-    protected static string | UnitEnum | null $navigationGroup = 'CRM';
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedEnvelope;
 
     protected static ?string $recordTitleAttribute = 'name';
 
@@ -48,6 +47,15 @@ class ContactResource extends Resource
             'index' => ListContacts::route('/'),
             'create' => CreateContact::route('/create'),
             'edit' => EditContact::route('/{record}/edit'),
+            'view' => Pages\ViewContact::route('/{record}'),
         ];
+    }
+
+    public static function getRecordRouteBindingEloquentQuery(): Builder
+    {
+        return parent::getRecordRouteBindingEloquentQuery()
+            ->withoutGlobalScopes([
+                SoftDeletingScope::class,
+            ]);
     }
 }
