@@ -12,7 +12,7 @@
                     <i class="fa-sharp fa-solid fa-play"></i>
                 </a>
                 <div class="logo-icon-wrap__text">
-                    <span class="logo-animation">PILLAR REAL ESTATE HOME * REAL ESTATE</span>
+                    <span class="logo-animation">ANDY LAM * REAL ESTATE * AGENT</span>
                 </div>
             </div>
         </div>
@@ -28,25 +28,6 @@
                                         <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Journey To Your Perfect <span class="title2 text-theme"> Luxury Home</span></h1>
                                         <div class="btn-group justify-content-center" data-ani="slideinup" data-ani-delay="0.4s">
                                             <a href="property.html" class="th-btn style2 pill">Explore Property </a>
-                                        </div>
-                                        <div class="trust-content" data-ani="slideinup" data-ani-delay="0.6s">
-                                            <div class="icon"><img src="assets/img/icon/star-icon.svg" alt="img"></div>
-                                            <h4 class="box-title">Trustipilot</h4>
-                                        </div>
-                                        <div class="bottom" data-ani="slideinup" data-ani-delay="0.8s">
-                                            <div class="avatar">
-                                                <img src="assets/img/hero/heror-1-avator-group.png" alt="img">
-                                            </div>
-                                            <div class="content">
-                                                <div class="th-social">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <h4 class="review-title"><span class="number"><span class="counter-number">19</span>k+</span> clients</h4>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -64,101 +45,13 @@
                                         <div class="btn-group justify-content-center" data-ani="slideinup" data-ani-delay="0.4s">
                                             <a href="property.html" class="th-btn style2 pill">Explore Property </a>
                                         </div>
-                                        <div class="trust-content" data-ani="slideinup" data-ani-delay="0.6s">
-                                            <div class="icon"><img src="assets/img/icon/star-icon.svg" alt="img"></div>
-                                            <h4 class="box-title">Trustipilot</h4>
-                                        </div>
-                                        <div class="bottom" data-ani="slideinup" data-ani-delay="0.8s">
-                                            <div class="avatar">
-                                                <img src="assets/img/hero/heror-1-avator-group.png" alt="img">
-                                            </div>
-                                            <div class="content">
-                                                <div class="th-social">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <h4 class="review-title"><span class="number"><span class="counter-number">19</span>k+</span> clients</h4>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="hero-inner hero-style1" data-bg-src="https://images.pexels.com/photos/1546166/pexels-photo-1546166.jpeg">
-                        <div class="container">
-                            <div class="row gy-50 gx-40 align-items-center">
-                                <div class="col-xxl-7 col-xl-7 col-lg-8">
-                                    <div class="hero-1-content pe-xl-4">
-                                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Experience Real Estate <span class="title2 text-theme"> Never Before</span></h1>
-                                        <div class="btn-group justify-content-center" data-ani="slideinup" data-ani-delay="0.4s">
-                                            <a href="property.html" class="th-btn style2 pill">Explore Property </a>
-                                        </div>
-                                        <div class="trust-content" data-ani="slideinup" data-ani-delay="0.6s">
-                                            <div class="icon"><img src="assets/img/icon/star-icon.svg" alt="img"></div>
-                                            <h4 class="box-title">Trustipilot</h4>
-                                        </div>
-                                        <div class="bottom" data-ani="slideinup" data-ani-delay="0.8s">
-                                            <div class="avatar">
-                                                <img src="assets/img/hero/heror-1-avator-group.png" alt="img">
-                                            </div>
-                                            <div class="content">
-                                                <div class="th-social">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <h4 class="review-title"><span class="number"><span class="counter-number">19</span>k+</span> clients</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="hero-inner hero-style1" data-bg-src="https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg">
-                        <div class="container">
-                            <div class="row gy-50 gx-40 align-items-center">
-                                <div class="col-xxl-7 col-xl-7 col-lg-8">
-                                    <div class="hero-1-content pe-xl-4">
-                                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Discover Real Estate Piller <span class="title2 text-theme"> Dream Home</span></h1>
-                                        <div class="btn-group justify-content-center" data-ani="slideinup" data-ani-delay="0.4s">
-                                            <a href="property.html" class="th-btn style2 pill">Explore Property </a>
-                                        </div>
-                                        <div class="trust-content" data-ani="slideinup" data-ani-delay="0.6s">
-                                            <div class="icon"><img src="assets/img/icon/star-icon.svg" alt="img"></div>
-                                            <h4 class="box-title">Trustipilot</h4>
-                                        </div>
-                                        <div class="bottom" data-ani="slideinup" data-ani-delay="0.8s">
-                                            <div class="avatar">
-                                                <img src="assets/img/hero/heror-1-avator-group.png" alt="img">
-                                            </div>
-                                            <div class="content">
-                                                <div class="th-social">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <h4 class="review-title"><span class="number"><span class="counter-number">19</span>k+</span> clients</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
             <div class="slider-pagination"></div>
 
@@ -175,7 +68,7 @@
     <!--==============================
     Search area
     ==============================-->
-    <div class="search-area">
+    <!-- <div class="search-area">
         <form action="/submit-form">
             <div class="container">
                 <div class="row justify-content-center">
@@ -639,13 +532,13 @@
                 </div>
             </div>
         </form>
-    </div>
+    </div> -->
 
 
     <!--==============================
     Best Properties Sale
     ==============================-->
-    <section class="popular-sec-1 space">
+    <!-- <section class="popular-sec-1 space">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-7">
@@ -739,7 +632,7 @@
                 @endforeach
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!--==============================
@@ -747,7 +640,7 @@
     ==============================-->
     <div class="why-sec-1 space" id="why-sec" data-bg-src="assets/img/why/why-choose-1-bg.jpg">
         <div class="container">
-            <div class="row justify-content-xl-between justify-content-center align-items-start">
+            <!-- <div class="row justify-content-xl-between justify-content-center align-items-start">
                 <div class="col-xl-6">
                     <div class="title-area text-center text-xl-start text-left white mb-4">
                         <p class="sub-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.1s"> <span class="double-line"></span> Why Choose Us </p>
@@ -777,7 +670,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="row gy-30 align-items-center justify-content-center">
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="why-card-1">

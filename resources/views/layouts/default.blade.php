@@ -54,7 +54,6 @@
 
   <body class="">
     @include('layouts.partials.preloader')
-    @include('layouts.partials.color-scheme')
     @include('layouts.partials.sidemenu')
     @include('layouts.partials.mobile-menu')
     @include('layouts.partials.header')

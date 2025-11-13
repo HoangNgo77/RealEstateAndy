@@ -6,8 +6,8 @@
           <div class="header-links">
             <ul>
               <li><i class="fa-solid fa-envelope"></i> <a
-                  href="mailto:infomailexample@mail.com">infomailexample@mail.com</a></li>
-              <li><i class="fa-solid fa-phone"></i> <a href="tel:+0012345678900">+00 (123) 456 789 00</a></li>
+                  href="mailto:Andylam882@gmail.com">Andylam882@gmail.com</a></li>
+              <li><i class="fa-solid fa-phone"></i> <a href="tel:+7144545464">(714) 454-5464</a></li>
             </ul>
           </div>
         </div>
@@ -64,14 +64,14 @@
             </nav>
             <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
           </div>
-          <div class="col-auto d-none d-xl-block">
+          <!-- <div class="col-auto d-none d-xl-block">
             <div class="header-button">
               <a href="{{ route('contact') }}" class="th-btn outline pill text-white"><i
                   class="fa-regular fa-house-chimney me-2"></i> Add Listing </a>
               <button type="button" class="icon-btn searchBoxToggler text-white"><i
                   class="far fa-search"></i></button>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
