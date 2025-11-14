@@ -36,7 +36,7 @@
         <div class="row align-items-center justify-content-between">
           <div class="col-auto">
             <div class="header-logo">
-              <a href="{{ route('home') }}"><img src="assets/img/logo-white.svg" alt="Piller-html"></a>
+              <a href="{{ route('home') }}"><img src="assets/img/logo-premier.png" alt="Andy Lam - real estate"></a>
             </div>
           </div>
           <div class="col-auto">
@@ -52,7 +52,7 @@
                   <a href="{{ route('properties.index') }}">Property</a>
                 </li>
                 <li>
-                  <a href="{{ route('agencies.index') }}">Agencies</a>
+                  <a href="{{ route('agencies.index') }}">Project</a>
                 </li>
                 <li>
                   <a href="{{ route('blog.index') }}">Blog</a>

@@ -634,7 +634,97 @@
         </div>
     </section> -->
 
+    <!--==============================
+    Feature Area
+    ==============================-->
+    <section class="popular-sec-1 space">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7">
+                    <div class="title-area text-center">
+                        <p class="sub-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.1s"> <span class="double-line"></span>Listing My project</p>
+                        <h2 class="sec-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.3s">Featured Properties</h2>
+                    </div>
+                </div>
+            </div>
 
+            <div class="row gy-30 justify-content-center">
+                @foreach($luxuryProperties as $property)
+                <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
+                    <div class="popular-list-1">
+                        <div class="thumb-wrapper">
+                            <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
+                                <div class="swiper-wrapper">
+                                    @foreach(collect([
+                                        'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg',
+                                        'https://images.pexels.com/photos/3255246/pexels-photo-3255246.jpeg',
+                                        'https://images.pexels.com/photos/2453292/pexels-photo-2453292.jpeg',
+                                        'https://images.pexels.com/photos/2028176/pexels-photo-2028176.jpeg'
+                                    ])->shuffle() as $image)
+                                    <div class="swiper-slide">
+                                        <a class="popular-popup-image" href="{{ $image }}"><img src="{{ $image }}" alt="Image"></a>
+                                    </div>
+                                    @endforeach
+                                </div>
+                                <div class="icon-wrap">
+                                    <button class="slider-arrow slider-prev"><i class="far fa-arrow-left"></i></button>
+                                    <button class="slider-arrow slider-next"><i class="far fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="wishlist.html" class="icon-btn"><i class="fas fa-heart"></i></a>
+                            </div>
+                            <div class="actions-style-2-wrapper">
+                                <div class="actions style-2">
+                                    <a href="#" class="icon-btn">
+                                        <!-- <span class="action-text">Add To Favorite</span> -->
+                                        <i class="fa-solid fa-bookmark"></i>
+                                    </a>
+                                    <a href="assets/img/popular/popular-1-1.jpg" class="icon-btn popular-popup-image">
+                                        <span class="action-text">View all img</span>
+                                        <i class="fa-solid fa-camera"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="popular-badge">
+                                <img src="assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <p>For Sale</p>
+                            </div>
+                        </div>
+                        <div class="property-content">
+                            <div class="media-body">
+                                <h3 class="box-title"> <a href="{{ route('properties.show', $property->slug) }}">{{ $property->name }}</a></h3>
+                                <div class="box-text">
+                                    <div class="icon"><img src="assets/img/icon/popular-location.svg" alt="icon"></div> {{ $property->address }}, {{ $property->city }}
+                                </div>
+                            </div>
+
+                            <ul class="property-featured">
+                                <li>
+                                    <div class="icon"><img src="assets/img/icon/bed.svg" alt="icon"></div>
+                                    Bed {{ $property->bedroom }}
+                                </li>
+
+                                <li>
+                                    <div class="icon"><img src="assets/img/icon/bath.svg" alt="icon"></div>
+                                    Bath {{ $property->bathroom }}
+                                </li>
+                                <li>
+                                    <div class="icon"><img src="assets/img/icon/sqft.svg" alt="icon"></div>
+                                    {{ $property->area }} sqft
+                                </li>
+                            </ul>
+                            <div class="property-bottom">
+                                <h6 class="box-title">${{ number_format($property->price, 2) }}</h6>
+                                <a class="th-btn sm style3 pill" href="{{ route('properties.show', $property->slug) }}">View More </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
     <!--==============================
     Why choose Area
     ==============================-->
@@ -685,7 +775,7 @@
                             <p class="box-text"> Altus cedo tantillus video patrocinor valeo carus subseco vestrum credo virtus. </p>
                         </div>
                         <div class="why-card-1__bottom">
-                            <a class="th-btn style3 pill bg-white" href="property-details.html">Find a Home</a>
+                            <a class="th-btn style3 pill bg-white" href="{{ route('properties.index') }}">Find a Home</a>
                         </div>
                     </div>
                 </div>
@@ -698,11 +788,11 @@
                             <img src="assets/img/icon/why-icon-1-2.svg" alt="image">
                         </div>
                         <div class="why-card-1__content">
-                            <h3 class="box-title">Sell a Property</h3>
+                            <h3 class="box-title">Project </h3>
                             <p class="box-text"> Tantillus certe patrocinor video adipisci valeo carus. Subseco vestrum taedium. </p>
                         </div>
                         <div class="why-card-1__bottom">
-                            <a class="th-btn  style3 pill bg-white" href="property-details.html">Sell a Home</a>
+                            <a class="th-btn  style3 pill bg-white" href="property-details.html">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -715,11 +805,11 @@
                             <img src="assets/img/icon/why-icon-1-3.svg" alt="image">
                         </div>
                         <div class="why-card-1__content">
-                            <h3 class="box-title">Rent a Home</h3>
+                            <h3 class="box-title">Build A Home</h3>
                             <p class="box-text"> Velox surgo clarus tantillus confido carus video lumen cedo virtus spes decerno. </p>
                         </div>
                         <div class="why-card-1__bottom">
-                            <a class="th-btn style3 pill bg-white" href="property-details.html">Rent a Home</a>
+                            <a class="th-btn style3 pill bg-white" href="property-details.html">Build A Home</a>
                         </div>
                     </div>
                 </div>
@@ -727,97 +817,7 @@
         </div>
     </div>
 
-    <!--==============================
-    Feature Area
-    ==============================-->
-    <section class="popular-sec-1 space">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-7">
-                    <div class="title-area text-center">
-                        <p class="sub-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.1s"> <span class="double-line"></span>Listing Property</p>
-                        <h2 class="sec-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.3s">Featured Luxury Properties</h2>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row gy-30 justify-content-center">
-                @foreach($luxuryProperties as $property)
-                <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
-                    <div class="popular-list-1">
-                        <div class="thumb-wrapper">
-                            <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
-                                <div class="swiper-wrapper">
-                                    @foreach(collect([
-                                        'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg',
-                                        'https://images.pexels.com/photos/3255246/pexels-photo-3255246.jpeg',
-                                        'https://images.pexels.com/photos/2453292/pexels-photo-2453292.jpeg',
-                                        'https://images.pexels.com/photos/2028176/pexels-photo-2028176.jpeg'
-                                    ])->shuffle() as $image)
-                                    <div class="swiper-slide">
-                                        <a class="popular-popup-image" href="{{ $image }}"><img src="{{ $image }}" alt="Image"></a>
-                                    </div>
-                                    @endforeach
-                                </div>
-                                <div class="icon-wrap">
-                                    <button class="slider-arrow slider-prev"><i class="far fa-arrow-left"></i></button>
-                                    <button class="slider-arrow slider-next"><i class="far fa-arrow-right"></i></button>
-                                </div>
-                            </div>
-                            <div class="actions">
-                                <a href="wishlist.html" class="icon-btn"><i class="fas fa-heart"></i></a>
-                            </div>
-                            <div class="actions-style-2-wrapper">
-                                <div class="actions style-2">
-                                    <a href="#" class="icon-btn">
-                                        <span class="action-text">Add To Favorite</span>
-                                        <i class="fa-solid fa-bookmark"></i>
-                                    </a>
-                                    <a href="assets/img/popular/popular-1-1.jpg" class="icon-btn popular-popup-image">
-                                        <span class="action-text">View all img</span>
-                                        <i class="fa-solid fa-camera"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="popular-badge">
-                                <img src="assets/img/icon/sell_rent_icon.svg" alt="icon">
-                                <p>For Sale</p>
-                            </div>
-                        </div>
-                        <div class="property-content">
-                            <div class="media-body">
-                                <h3 class="box-title"> <a href="{{ route('properties.show', $property->slug) }}">{{ $property->name }}</a></h3>
-                                <div class="box-text">
-                                    <div class="icon"><img src="assets/img/icon/popular-location.svg" alt="icon"></div> {{ $property->address }}, {{ $property->city }}
-                                </div>
-                            </div>
-
-                            <ul class="property-featured">
-                                <li>
-                                    <div class="icon"><img src="assets/img/icon/bed.svg" alt="icon"></div>
-                                    Bed {{ $property->bedroom }}
-                                </li>
-
-                                <li>
-                                    <div class="icon"><img src="assets/img/icon/bath.svg" alt="icon"></div>
-                                    Bath {{ $property->bathroom }}
-                                </li>
-                                <li>
-                                    <div class="icon"><img src="assets/img/icon/sqft.svg" alt="icon"></div>
-                                    {{ $property->area }} sqft
-                                </li>
-                            </ul>
-                            <div class="property-bottom">
-                                <h6 class="box-title">${{ number_format($property->price, 2) }}</h6>
-                                <a class="th-btn sm style3 pill" href="{{ route('properties.show', $property->slug) }}">View More </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
 
     <!--==============================
     Property Values Area
@@ -843,7 +843,7 @@
                     <div class="property-values-1-content space">
                         <div class="title-area text-left">
                             <p class="sub-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.1s"> <span class="double-line"></span> Property Values</p>
-                            <h2 class="sec-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.3s">Market Your <br> Property with Pillar</h2>
+                            <h2 class="sec-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.3s">Market Your <br> Property with Premier Agent Network</h2>
                         </div>
                         <div class="property-values-1-counter-wrapper">
                             <div class="property-values-1-counter fadeinup wow">
@@ -851,7 +851,7 @@
                                     <img src="assets/img/icon/counter-icon-1-1.svg" alt="">
                                 </div>
                                 <h2 class="counter">
-                                    <span class="counter-number">28</span>
+                                    <span class="counter-number">10</span>
                                     +
                                 </h2>
                                 <span>Years of Business</span>
@@ -871,8 +871,8 @@
                                     <img src="assets/img/icon/counter-icon-1-3.svg" alt="">
                                 </div>
                                 <h2 class="counter">
-                                    <span class="counter-number">25</span>
-                                    k
+                                    <span class="counter-number">68</span>
+                                    +
                                 </h2>
                                 <span>5 Stars Reviews</span>
                             </div>
@@ -902,8 +902,8 @@
                 <div class="col-xl-7">
                     <div class="title-area text-center">
                         <p class="sub-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.1s"> <span class="double-line"></span>Explore Cities</p>
-                        <h2 class="sec-title mb-2 fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.3s">Explore The Neighborhoods</h2>
-                        <p class="box-text fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.5s">Find your dream apartment with our listing</p>
+                        <h2 class="sec-title mb-2 fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.3s">Explore Our project</h2>
+                        <p class="box-text fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.5s">Find your dream Home with our listing</p>
                     </div>
                 </div>
             </div>
@@ -1015,169 +1015,6 @@
         </div>
     </section>
 
-
-    <!--==============================
-    Team Area
-    ==============================-->
-    <section class="team-area-1 space overflow-hidden">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-7">
-                    <div class="title-area text-center">
-                        <p class="sub-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.1s"> <span class="double-line"></span>Team Members</p>
-                        <h2 class="sec-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.3s">Meet Our Pillar Agents</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="slider-area mb-20">
-                <div class="swiper th-slider has-shadow" id="teamSlider1" data-slider-options='{"autoplay":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"4"}}, "autoHeight": "true"}'>
-                    <div class="swiper-wrapper">
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="team-card">
-                                <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_1.png" alt="Team">
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="box-title"><a href="team-details.html">Bernice Roberts</a></h3>
-                                    <span class="team-desig">Real Estate Manager</span>
-                                    <div class="team-social">
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="team-card">
-                                <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_2.png" alt="Team">
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="box-title"><a href="team-details.html">Mr. Raul Hirthe</a></h3>
-                                    <span class="team-desig">Listing Coordinator</span>
-                                    <div class="team-social">
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="team-card">
-                                <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_3.png" alt="Team">
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="box-title"><a href="team-details.html">Michel John</a></h3>
-                                    <span class="team-desig">Property Developer</span>
-                                    <div class="team-social">
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="team-card">
-                                <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_4.png" alt="Team">
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="box-title"><a href="team-details.html">William Bins</a></h3>
-                                    <span class="team-desig">Leasing Consultant</span>
-                                    <div class="team-social">
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="team-card">
-                                <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_1.png" alt="Team">
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="box-title"><a href="team-details.html">Bernice Roberts</a></h3>
-                                    <span class="team-desig">Real Estate Manager</span>
-                                    <div class="team-social">
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="team-card">
-                                <div class="team-img" data-bg-src="assets/img/shape/team-bg-pattern.png">
-                                    <img src="https://html.themehour.net/piller/demo/assets/img/team/team_1_2.png" alt="Team">
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="box-title"><a href="team-details.html">Mr. Raul Hirthe</a></h3>
-                                    <span class="team-desig">Listing Coordinator</span>
-                                    <div class="team-social">
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <button data-slider-prev="#teamSlider1" class="slider-arrow slider-prev"><i class="far fa-arrow-left"></i></button>
-                <button data-slider-next="#teamSlider1" class="slider-arrow slider-next"><i class="far fa-arrow-right"></i></button>
-            </div>
-
-            <div class="row gy-40 justify-content-center">
-                <div class="col-xl-8">
-                    <p class="chat-text-wrap text-center pe-xl-5 ps-xl-5 mb-0">Explore Property agents are here to help with all your buying, renting and selling goals. Find the home of your dreams with an expert you can trust. <a class="text-theme" href="contact.html"> Let’s chat</a></p>
-                </div>
-                <div class="col-12">
-                    <div class="text-center">
-                        <a class="th-btn pill bg-black" href="team.html">Find Your Location Agent <i class="fas fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!--==============================
     Testimonial Area

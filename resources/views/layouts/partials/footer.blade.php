@@ -5,19 +5,20 @@
           <div class="footer-all-widget-wrapper">
             <div class="footer-all-widget-item">
               <div class="widget footer-widget">
-                <h3 class="widget_title">About Pillar</h3>
+                <h3 class="widget_title">About Premier Agent Network</h3>
                 <div class="th-widget-about">
-                  <p class="about-text">Pillar is a luxury to the resilience, adaptability, Spacious modern villa living
-                    room with centrally placed swimming pool blending indooroutdoor.</p>
+                  <p class="about-text">I’m Andy, a dedicated real estate agent with a strong record of successful projects. I blend market insight, 
+                    data-driven strategy, clear communication, and skilled negotiation to turn complex deals into smooth, 
+                    successful outcomes helping clients buy, sell, and invest with confidence through transparency and client-first service.</p>
 
                   <div class="footer-info-wrap">
                     <div class="footer-info">
                       <i class="fas fa-phone"></i>
-                      <p class="info-box_link"><a href="tel:+00(123)456789012">+00 (123) 456 789 012</a></p>
+                      <p class="info-box_link"><a href="tel:+7144545464">(714) 454-5464</a></p>
                     </div>
                     <div class="footer-info">
                       <i class="fas fa-envelope"></i>
-                      <p class="info-box_link"> <a href="mailto:infomail123@domain.com">infomail123@domain.com</a></p>
+                      <p class="info-box_link"> <a href="mailto:Andylam882@gmail.com">Andylam882@gmail.com</a></p>
 
                     </div>
                     <div class="footer-info">
@@ -27,7 +28,7 @@
                   </div>
 
                   <div class="about-logo">
-                    <a href="index.html"><img src="assets/img/logo-white.svg" alt="Piller-html"></a>
+                    <a href="index.html"><img src="assets/img/logo-premier.png" alt="Piller-html"></a>
                   </div>
 
                 </div>
@@ -80,7 +81,7 @@
                   </div>
                   <div class="footer-item">
                     <div class="widget widget_banner footer-widget">
-                      <h3 class="widget_title">Pillar Location</h3>
+                      <h3 class="widget_title">Andy Location</h3>
                       <div class="widget-map">
                         <iframe
                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sAngfuztheme!5e0!3m2!1sen!2sbd!4v1658812932163!5m2!1sen!2sbd"></iframe>
@@ -90,7 +91,7 @@
                 </div>
                 <div class="footer-bottom-community">
                   <div class="content">
-                    <p>@pillar on Instagram</p>
+                    <p>@Andy on Instagram</p>
                     <h4 class="box-title">Nice Gallery</h4>
                   </div>
                   <div class="footer-gallery-wrapper">
@@ -164,7 +165,7 @@
           <div class="row gy-3 justify-content-lg-between justify-content-center align-items-center">
             <div class="col-lg-7">
               <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a
-                  href="index.html">Piller</a>. All Rights Reserved.</p>
+                  href="index.html">Andy</a>. All Rights Reserved.</p>
             </div>
             <div class="col-auto">
               <div class="footer-default-copy-right">

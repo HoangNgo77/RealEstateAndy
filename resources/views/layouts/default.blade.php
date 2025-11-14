@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Real Estate Home HTML Template - Home One</title>
+    <title>Andy Lam Real Estate - Home</title>
     <meta name="author" content="Piller">
     <meta name="description" content="Piller-html - Real Estate Home HTML Template">
     <meta name="keywords" content="Piller-html - Real Estate Home HTML Template">

@@ -9,7 +9,7 @@ class HomeController extends Controller
     public function index()
     {
         $bestProperties = $this->getBestProperties();
-        $luxuryProperties = $this->getLuxuryProperties();
+        $luxuryProperties = $this->getLuxuryProperties()->slice(0,4); # Just get first 4 property
         $cities = $this->getCities();
 
         return view('pages.home', compact('bestProperties', 'luxuryProperties', 'cities'));

@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Real Estate Home HTML Template - Home One</title>
-    <meta name="author" content="Piller">
-    <meta name="description" content="Piller-html - Real Estate Home HTML Template">
-    <meta name="keywords" content="Piller-html - Real Estate Home HTML Template">
+    <title> Andy Real Estate Home - </title>
+    <meta name="author" content="Andy">
+    <meta name="description" content="Real Estate ">
+    <meta name="keywords" content=" Real Estate">
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
@@ -54,7 +54,6 @@
 
   <body class="">
     @include('layouts.partials.preloader')
-    @include('layouts.partials.color-scheme')
     @include('layouts.partials.sidemenu')
     @include('layouts.partials.mobile-menu')
     @include('layouts.partials.header')
