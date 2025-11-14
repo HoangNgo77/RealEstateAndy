@@ -8,12 +8,14 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
+use BalajiDharma\LaravelViewable\Traits\HasViewable;
 
 class Post extends Model implements HasMedia
 {
     use HasFactory;
     use InteractsWithMedia;
     use SoftDeletes;
+    use HasViewable;
 
     protected $fillable = [
         'title',

@@ -2,6 +2,9 @@
 
 namespace App\Providers\Filament;
 
+use App\Livewire\PageViewOverview;
+use App\Livewire\TopViewedPostsTable;
+use App\Livewire\TopViewedPropertiesTable;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -40,6 +43,9 @@ class AdminPanelProvider extends PanelProvider
             ->widgets([
                 AccountWidget::class,
                 FilamentInfoWidget::class,
+                PageViewOverview::class,
+                TopViewedPropertiesTable::class,
+                TopViewedPostsTable::class,
             ])
             ->middleware([
                 EncryptCookies::class,

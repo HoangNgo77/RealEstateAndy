@@ -24,6 +24,8 @@ class PropertyController extends Controller
 
     public function show(Property $property)
     {
+        $property->record();
+
         return view('pages.property-detail', compact('property'));
     }
 }
