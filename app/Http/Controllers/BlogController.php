@@ -34,6 +34,8 @@ class BlogController extends Controller
             ->take(3)
             ->get();
 
+        $post->record();
+
         return view('pages.blog-detail', compact('post', 'recentPosts'));
     }
 }

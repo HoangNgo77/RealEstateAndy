@@ -10,6 +10,7 @@ use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
+use BalajiDharma\LaravelViewable\Traits\HasViewable;
 
 class Property extends Model implements HasMedia
 {
@@ -17,6 +18,7 @@ class Property extends Model implements HasMedia
     use HasSlug;
     use InteractsWithMedia;
     use SoftDeletes;
+    use HasViewable;
 
     protected $fillable = [
         'name',
