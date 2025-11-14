@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1a7d03744d21a6435c015def73b5418",
+    "content-hash": "80f46713804596083051e905b160bf57",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -71,6 +71,61 @@
                 "source": "https://github.com/AnourValar/eloquent-serialize/tree/1.3.4"
             },
             "time": "2025-07-30T15:45:57+00:00"
+        },
+        {
+            "name": "balajidharma/laravel-viewable",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/balajidharma/laravel-viewable.git",
+                "reference": "0c870011e9e30145185a966f5b389b1988d2742e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/balajidharma/laravel-viewable/zipball/0c870011e9e30145185a966f5b389b1988d2742e",
+                "reference": "0c870011e9e30145185a966f5b389b1988d2742e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^10.0|^11.0|^12.0",
+                "jaybizzle/crawler-detect": "^1.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BalajiDharma\\LaravelViewable\\ViewableServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BalajiDharma\\LaravelViewable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Balaji Dharmaraja",
+                    "homepage": "https://github.com/balajidharma"
+                }
+            ],
+            "description": "Track Page views for your Laravel projects",
+            "keywords": [
+                "laravel",
+                "laravel-framework",
+                "laravel-viewable",
+                "laravel-views",
+                "viewable"
+            ],
+            "support": {
+                "issues": "https://github.com/balajidharma/laravel-viewable/issues",
+                "source": "https://github.com/balajidharma/laravel-viewable/tree/v1.0.7"
+            },
+            "time": "2025-03-01T15:16:38+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -2134,6 +2189,58 @@
                 }
             ],
             "time": "2025-08-22T14:27:06+00:00"
+        },
+        {
+            "name": "jaybizzle/crawler-detect",
+            "version": "v1.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JayBizzle/Crawler-Detect.git",
+                "reference": "61f2ef1ad2d0ae922c265931cb0a8032a1ed2813"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/61f2ef1ad2d0ae922c265931cb0a8032a1ed2813",
+                "reference": "61f2ef1ad2d0ae922c265931cb0a8032a1ed2813",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.5|^6.5|^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jaybizzle\\CrawlerDetect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Beech",
+                    "email": "m@rkbee.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
+            "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
+            "keywords": [
+                "crawler",
+                "crawler detect",
+                "crawler detector",
+                "crawlerdetect",
+                "php crawler detect"
+            ],
+            "support": {
+                "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.3.6"
+            },
+            "time": "2025-09-30T16:22:43+00:00"
         },
         {
             "name": "kirschbaum-development/eloquent-power-joins",
