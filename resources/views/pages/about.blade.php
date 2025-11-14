@@ -223,7 +223,7 @@ Why choose Area
                 <div class="col-lg-6">
                     <div class="title-area text-left mb-2">
                         <p class="sub-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.1s"> <span class="double-line"></span> Signature Features</p>
-                        <h2 class="sec-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.3s"> See how Pillar can Help</h2>
+                        <h2 class="sec-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.3s"> See how we can Help</h2>
                     </div>
                 </div>
                 <div class="col-lg-auto">
@@ -426,7 +426,7 @@ Testimonial Area
                 <div class="col-xl-7">
                     <div class="title-area text-center">
                         <p class="sub-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.1s"> <span class="double-line"></span>Testimonials</p>
-                        <h2 class="sec-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.3s">What Clients Say About Pillar</h2>
+                        <h2 class="sec-title fadeinup wow" data-wow-duration="1.5s" data-wow-delay="0.3s">What Clients Say About Us</h2>
                     </div>
                 </div>
             </div>

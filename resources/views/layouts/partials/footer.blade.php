@@ -5,7 +5,7 @@
           <div class="footer-all-widget-wrapper">
             <div class="footer-all-widget-item">
               <div class="widget footer-widget">
-                <h3 class="widget_title">About Premier Agent Network</h3>
+                <h3 class="widget_title">Premier Agent Network</h3>
                 <div class="th-widget-about">
                   <p class="about-text">I’m Andy, a dedicated real estate agent with a strong record of successful projects. I blend market insight, 
                     data-driven strategy, clear communication, and skilled negotiation to turn complex deals into smooth, 

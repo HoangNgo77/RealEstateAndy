@@ -27,7 +27,7 @@
                                     <div class="hero-1-content pe-xl-4">
                                         <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Journey To Your Perfect <span class="title2 text-theme"> Luxury Home</span></h1>
                                         <div class="btn-group justify-content-center" data-ani="slideinup" data-ani-delay="0.4s">
-                                            <a href="property.html" class="th-btn style2 pill">Explore Property </a>
+                                            <a href="{{ route('properties.index') }}" class="th-btn style2 pill">Explore Property </a>
                                         </div>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@
                                     <div class="hero-1-content pe-xl-4">
                                         <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Find Your Perfect Place to <span class="title2 text-theme"> Call Home</span></h1>
                                         <div class="btn-group justify-content-center" data-ani="slideinup" data-ani-delay="0.4s">
-                                            <a href="property.html" class="th-btn style2 pill">Explore Property </a>
+                                            <a href="{{ route('agencies.index') }}" class="th-btn style2 pill">Explore our projects </a>
                                         </div>
                                     </div>
                                 </div>
