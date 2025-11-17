@@ -18,10 +18,18 @@
               <li>
                 <div class="th-social">
                   <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                  <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                  <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                  <a href="https://www.whatsapp.com/"><i class="fa-brands fa-youtube"></i></a>
                 </div>
+              </li>
+              <li class="lang-wrapper">
+                  <div class="lang-menu">
+                      <div class="icon">
+                          <img src="assets/img/icon/english.png" alt="icon">
+                      </div>
+                      <select class="form-select nice-select">
+                          <option selected="">English</option>
+                      </select>
+                  </div>
               </li>
             </ul>
           </div>
@@ -64,14 +72,14 @@
             </nav>
             <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
           </div>
-          <!-- <div class="col-auto d-none d-xl-block">
+          <div class="col-auto d-none d-xl-block">
             <div class="header-button">
               <a href="{{ route('contact') }}" class="th-btn outline pill text-white"><i
                   class="fa-regular fa-house-chimney me-2"></i> Add Listing </a>
               <button type="button" class="icon-btn searchBoxToggler text-white"><i
                   class="far fa-search"></i></button>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>

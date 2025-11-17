@@ -2,7 +2,7 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Piller-html"></a>
+                <a href="index.html"><img src="assets/img/logo-blue.png" alt="Real Estate"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
