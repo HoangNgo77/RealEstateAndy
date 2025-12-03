@@ -59,7 +59,7 @@
                                     <a href="{{ route('properties.index') }}">Property</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('agencies.index') }}">Project</a>
+                                    <a href="{{ route('projects.index') }}">Project</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('blog.index') }}">Blog</a>
