@@ -6,6 +6,8 @@ use App\Settings\GeneralSetting;
 use Filament\Actions\Action;
 use Filament\Forms\Components\Toggle;
 use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\FileUpload;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 use UnitEnum;
@@ -45,24 +47,59 @@ class Settings extends Page
                     ->description('General information about your site')
                     ->schema([
                         TextInput::make('site_name')
+                            ->label('Site Name')
                             ->required()
                             ->maxLength(255)
                             ->placeholder('Enter site name'),
-                        TextInput::make('site_description')
-                            ->maxLength(255)
+                        Textarea::make('site_description')
+                            ->label('Site Description')
+                            ->maxLength(500)
+                            ->rows(3)
                             ->placeholder('Enter site description'),
                         TextInput::make('site_email')
+                            ->label('Site Email')
                             ->email()
                             ->required()
                             ->maxLength(255)
                             ->placeholder('admin@example.com'),
                         TextInput::make('site_phone')
+                            ->label('Main Phone Number')
                             ->tel()
+                            ->required()
                             ->maxLength(20)
                             ->placeholder('+1 (555) 123-4567'),
-                        TextInput::make('site_address')
+                        TextInput::make('site_phone_sub')
+                            ->label('Secondary Phone Number')
+                            ->tel()
+                            ->maxLength(20)
+                            ->placeholder('+1 (555) 123-4568'),
+                        Textarea::make('site_address')
+                            ->label('Address')
                             ->maxLength(500)
+                            ->rows(2)
                             ->placeholder('Street address'),
+                    ])
+                    ->columns(2),
+
+                Section::make('Branding')
+                    ->description('Upload your logo and favicon')
+                    ->schema([
+                        FileUpload::make('logo')
+                            ->label('Logo')
+                            ->image()
+                            ->directory('settings')
+                            ->maxSize(2048)
+                            ->helperText('Upload your site logo (max 2MB)'),
+                        TextInput::make('logo_alt')
+                            ->label('Logo Alt Text')
+                            ->maxLength(255)
+                            ->placeholder('Logo description for accessibility'),
+                        FileUpload::make('favicon')
+                            ->label('Favicon')
+                            ->image()
+                            ->directory('settings')
+                            ->maxSize(512)
+                            ->helperText('Upload your favicon (max 512KB, recommended 32x32 or 64x64 px)'),
                     ])
                     ->columns(2),
 
@@ -70,14 +107,53 @@ class Settings extends Page
                     ->description('Links to your social media profiles')
                     ->schema([
                         TextInput::make('facebook_url')
+                            ->label('Facebook URL')
                             ->url()
+                            ->maxLength(255)
                             ->placeholder('https://facebook.com/yourpage'),
-                        TextInput::make('twitter_url')
+                        TextInput::make('youtube_url')
+                            ->label('YouTube URL')
                             ->url()
-                            ->placeholder('https://twitter.com/yourhandle'),
+                            ->maxLength(255)
+                            ->placeholder('https://youtube.com/yourchannel'),
+                        TextInput::make('linkedin_url')
+                            ->label('LinkedIn URL')
+                            ->url()
+                            ->maxLength(255)
+                            ->placeholder('https://linkedin.com/in/yourprofile'),
+                        TextInput::make('viber_url')
+                            ->label('Viber URL')
+                            ->url()
+                            ->maxLength(255)
+                            ->placeholder('viber://chat?number=1234567890'),
                         TextInput::make('instagram_url')
+                            ->label('Instagram URL')
                             ->url()
+                            ->maxLength(255)
                             ->placeholder('https://instagram.com/yourhandle'),
+                    ])
+                    ->columns(2),
+
+                Section::make('Homepage Settings')
+                    ->description('Configure homepage elements')
+                    ->schema([
+                        TextInput::make('homepage_youtube_slider')
+                            ->label('YouTube Slider Link')
+                            ->url()
+                            ->maxLength(255)
+                            ->placeholder('https://youtube.com/watch?v=...')
+                            ->helperText('YouTube video link for homepage slider'),
+                    ])
+                    ->columns(1),
+
+                Section::make('Footer')
+                    ->description('Footer content')
+                    ->schema([
+                        Textarea::make('footer_description')
+                            ->label('Footer Description')
+                            ->maxLength(1000)
+                            ->rows(4)
+                            ->placeholder('Enter footer description text'),
                     ])
                     ->columns(1),
 

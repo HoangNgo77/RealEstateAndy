@@ -4,15 +4,22 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Andy Lam Real Estate - Home</title>
-    <meta name="author" content="Piller">
-    <meta name="description" content="Piller-html - Real Estate Home HTML Template">
-    <meta name="keywords" content="Piller-html - Real Estate Home HTML Template">
+    <title>{{ $settings->site_name ?? 'Andy Lam Real Estate' }} - Home</title>
+    <meta name="author" content="{{ $settings->site_name ?? 'Andy Lam' }}">
+    <meta name="description" content="{{ $settings->site_description ?? 'Real Estate Home' }}">
+    <meta name="keywords" content="{{ $settings->site_name ?? 'Real Estate' }}">
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    
+    @if($settings->favicon)
+    <link rel="icon" type="image/x-icon" href="{{ Storage::url($settings->favicon) }}">
+    @else
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicons/favicon.ico') }}">
+    @endif
+    
+    <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
