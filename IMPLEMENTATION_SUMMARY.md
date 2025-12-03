@@ -204,3 +204,93 @@ php artisan migrate
 - Add project timeline
 - Integration with property listings
 - Advanced filtering on projects page
+
+---
+
+## Settings Integration
+
+### Fields Usage in Frontend
+
+All settings are automatically available in all views via `$settings` variable:
+
+#### Favicon & Logo
+- **Favicon**: `$settings->favicon` - Displayed in browser tab
+- **Logo**: `$settings->logo` - Main site logo in header, footer, mobile menu
+- **Logo Alt**: `$settings->logo_alt` - Alt text for logo (SEO)
+
+#### Contact Information
+- **Email**: `$settings->site_email` - Used in:
+  - Header top bar
+  - Footer contact info
+  - All mailto: links
+
+- **Main Phone**: `$settings->site_phone` - Used in:
+  - Header top bar
+  - Footer contact info
+  - All tel: links
+
+- **Sub Phone**: `$settings->site_phone_sub` - Displayed if set:
+  - Header top bar (additional phone)
+  - Footer contact info
+
+- **Address**: `$settings->site_address` - Used in:
+  - Footer contact info
+
+#### Social Media Links
+All social links automatically displayed if set:
+- **Facebook**: `$settings->facebook_url` - Header & Footer
+- **YouTube**: `$settings->youtube_url` - Header & Footer
+- **LinkedIn**: `$settings->linkedin_url` - Header & Footer  
+- **Viber**: `$settings->viber_url` - Header & Footer
+- **Instagram**: `$settings->instagram_url` - Header & Footer
+
+#### Homepage
+- **YouTube Slider**: `$settings->homepage_youtube_slider` - Video link for homepage slider
+
+#### Footer
+- **Footer Description**: `$settings->footer_description` - Main footer text/about section
+
+#### Site Info
+- **Site Name**: `$settings->site_name` - Used in:
+  - Page title
+  - Meta tags
+  - Footer heading
+  - Copyright text
+
+- **Site Description**: `$settings->site_description` - Used in:
+  - Meta description tags
+
+### Default Values
+
+All settings have fallback values if not configured:
+```php
+{{ $settings->site_email ?? 'default@example.com' }}
+```
+
+This ensures the site works even without settings configured.
+
+### View Composer
+
+`App\View\Composers\SettingsComposer` automatically shares `$settings` with all views.
+
+### How to Use in Views
+
+```blade
+{{-- Logo --}}
+@if($settings->logo)
+<img src="{{ Storage::url($settings->logo) }}" alt="{{ $settings->logo_alt }}">
+@else
+<img src="{{ asset('assets/img/logo.png') }}" alt="Default Logo">
+@endif
+
+{{-- Social Media --}}
+@if($settings->facebook_url)
+<a href="{{ $settings->facebook_url }}">Facebook</a>
+@endif
+
+{{-- Contact Info --}}
+<a href="mailto:{{ $settings->site_email ?? 'default@example.com' }}">
+  {{ $settings->site_email ?? 'Contact Us' }}
+</a>
+```
+
