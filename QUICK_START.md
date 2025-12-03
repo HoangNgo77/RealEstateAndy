@@ -199,3 +199,69 @@ All menus now show:
 ---
 
 Done! 🎉
+
+---
+
+## Database Seeding
+
+### Run All Seeders
+```bash
+php artisan migrate:fresh --seed
+```
+
+This will create:
+- Admin user (test@example.com / password)
+- Amenities
+- Properties  
+- Posts
+- **8 Sample Projects** (NEW)
+- Contact form submissions
+
+### Run Only Project Seeder
+```bash
+php artisan db:seed --class=ProjectSeeder
+```
+
+### Sample Projects Created
+
+The seeder creates 8 diverse projects:
+
+1. **Modern Villa Construction in District 2** - Published
+   - Luxury villa with smart home integration
+   - 4 bedrooms, infinity pool, solar panels
+
+2. **Luxury Apartment Complex - Thao Dien** - Published
+   - 120 units, rooftop pool, resort amenities
+   - 15-story development
+
+3. **Eco-Friendly Townhouse Development** - Published
+   - LEED Gold certified sustainable homes
+   - Solar energy, green roofs, 45 units
+
+4. **Heritage Building Restoration - Dong Khoi Street** - Published
+   - 1920s colonial building restoration
+   - Preserved historical architecture
+
+5. **Contemporary Office Tower - CBD Area** - Published
+   - 25-story Grade-A office building
+   - LEED Platinum, smart building tech
+
+6. **Beach Resort Villas - Vung Tau** - Published
+   - 12 beachfront villas with private pools
+   - Direct beach access
+
+7. **Mixed-Use Development - Binh Thanh District** - Published
+   - Integrated residential, retail, office
+   - 2 towers, shopping mall, hotel
+
+8. **Smart Home Renovation - Traditional House** - Draft
+   - Modern tech in traditional Vietnamese house
+   - Scheduled for future publishing
+
+All projects include:
+- ✅ Detailed descriptions with HTML formatting
+- ✅ Feature lists and specifications
+- ✅ Construction highlights
+- ✅ SEO-friendly slugs
+- ✅ Publication dates
+
