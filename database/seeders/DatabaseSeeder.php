@@ -27,6 +27,7 @@ class DatabaseSeeder extends Seeder
             AmenitySeeder::class,
             PropertySeeder::class,
             PostSeeder::class,
+            ProjectSeeder::class,
             ContactSeeder::class,
         ]);
     }
