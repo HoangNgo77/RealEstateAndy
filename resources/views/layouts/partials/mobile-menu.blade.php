@@ -2,7 +2,11 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html"><img src="assets/img/logo-blue.png" alt="Real Estate"></a>
+                @if($settings->logo)
+                <a href="{{ route('home') }}"><img src="{{ Storage::url($settings->logo) }}" alt="{{ $settings->logo_alt ?? 'Logo' }}"></a>
+                @else
+                <a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo-blue.png') }}" alt="{{ $settings->logo_alt ?? 'Real Estate' }}"></a>
+                @endif
             </div>
             <div class="th-mobile-menu">
                 <ul>

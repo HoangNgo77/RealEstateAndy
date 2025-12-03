@@ -8,8 +8,11 @@
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-links">
                             <ul>
-                                <li><i class="fa-solid fa-envelope"></i> <a href="mailto:Andylam882@gmail.com">Andylam882@gmail.com</a></li>
-                                <li><i class="fa-solid fa-phone"></i> <a href="tel:+7144545464">(714) 454-5464</a></li>
+                                <li><i class="fa-solid fa-envelope"></i> <a href="mailto:{{ $settings->site_email ?? 'Andylam882@gmail.com' }}">{{ $settings->site_email ?? 'Andylam882@gmail.com' }}</a></li>
+                                <li><i class="fa-solid fa-phone"></i> <a href="tel:{{ $settings->site_phone ?? '+7144545464' }}">{{ $settings->site_phone ?? '(714) 454-5464' }}</a></li>
+                                @if($settings->site_phone_sub)
+                                <li><i class="fa-solid fa-phone"></i> <a href="tel:{{ $settings->site_phone_sub }}">{{ $settings->site_phone_sub }}</a></li>
+                                @endif
                             </ul>
                         </div>
                     </div>
@@ -19,14 +22,27 @@
                             <ul>
                                 <li>
                                     <div class="th-social">
-                                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.whatsapp.com/"><i class="fa-brands fa-youtube"></i></a>
+                                        @if($settings->facebook_url)
+                                        <a href="{{ $settings->facebook_url }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        @endif
+                                        @if($settings->youtube_url)
+                                        <a href="{{ $settings->youtube_url }}" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                        @endif
+                                        @if($settings->instagram_url)
+                                        <a href="{{ $settings->instagram_url }}" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        @endif
+                                        @if($settings->linkedin_url)
+                                        <a href="{{ $settings->linkedin_url }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        @endif
+                                        @if($settings->viber_url)
+                                        <a href="{{ $settings->viber_url }}" target="_blank"><i class="fab fa-viber"></i></a>
+                                        @endif
                                     </div>
                                 </li>
                                 <li class="lang-wrapper">
                                     <div class="lang-menu">
                                         <div class="icon">
-                                            <img src="assets/img/icon/english.png" alt="icon">
+                                            <img src="{{ asset('assets/img/icon/english.png') }}" alt="icon">
                                         </div>
                                     </div>
                                 </li>
@@ -43,7 +59,11 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/img/logo-blue.png" alt="Andy - real estate"></a>
+                                @if($settings->logo)
+                                <a href="{{ route('home') }}"><img src="{{ Storage::url($settings->logo) }}" alt="{{ $settings->logo_alt ?? 'Logo' }}"></a>
+                                @else
+                                <a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo-blue.png') }}" alt="{{ $settings->logo_alt ?? 'Andy - real estate' }}"></a>
+                                @endif
                             </div>
                         </div>
                         <div class="col-auto">
